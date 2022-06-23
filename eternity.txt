@@ -1,0 +1,6 @@
+"eternity"
+{
+    "base"		"sandbox"
+    "title"		"TnB Serious Roleplay"
+    "menusystem" "1"
+}
