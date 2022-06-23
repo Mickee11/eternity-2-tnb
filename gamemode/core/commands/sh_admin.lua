@@ -302,7 +302,6 @@ end, COMMAND_ADMIN, {}, {CFLAG_NOCONSOLE},
 "Sandbox", "Saves the prop or effect you're looking at, making it unable to be edited and persist through restarts/map changes.")
 
 console.AddCommand("rpa_seeall", function(ply)
-	ply:SetSetting("seeall_enabled", not ply:GetSetting("seeall_enabled"))
 end, COMMAND_ADMIN, {}, {CFLAG_NOCONSOLE},
 "Clientside", "Toggles seeall on or off.")
 

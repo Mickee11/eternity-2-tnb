@@ -129,3 +129,22 @@ console.AddCommand("rpa_takemoney", function(ply, targets, amount)
 	Feedback(ply, string.format("You've taken %s credits from %s", amount, TargetName(targets, "RPName")))
 end, COMMAND_SA, {CTYPE_PLAYER, CTYPE_NUMBER}, {},
 "Superadmin", "Takes money from a player.")
+
+console.AddCommand("rpa_noclipseeall", function(ply)
+	GAMEMODE:SetNoclipSeeall(not GAMEMODE:NoclipSeeall())
+	GAMEMODE:WriteLog("admin_noclipseeall", {
+		Admin = GAMEMODE:LogPlayer(ply)
+	})
+
+	if GAMEMODE:NoclipSeeall() == true then -- Disable seeall for players currently not in noclip
+		local players = player.GetHumans()
+		for _, v in ipairs(players) do
+			if v:GetSetting("seeall_enabled") and not v:IsInNoClip() then
+				v:SetSetting("seeall_enabled", false)
+				Feedback(v, "Seeall has been disabled outside of noclip, turning off your seeall.")
+			end
+		end
+	end
+
+end, COMMAND_SA, {}, {CFLAG_NOCONSOLE},
+"Superadmin", "Toggles whether admins can use seeall only when in NoClip.")
