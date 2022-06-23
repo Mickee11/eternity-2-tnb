@@ -302,6 +302,15 @@ end, COMMAND_ADMIN, {}, {CFLAG_NOCONSOLE},
 "Sandbox", "Saves the prop or effect you're looking at, making it unable to be edited and persist through restarts/map changes.")
 
 console.AddCommand("rpa_seeall", function(ply)
+	local noclipseeall = GAMEMODE:NoclipSeeall()
+
+	if ply:IsInNoClip() and noclipseeall == true or noclipseeall == false then
+		ply:SetSetting("seeall_enabled", not ply:GetSetting("seeall_enabled"))
+		GAMEMODE:WriteLog("admin_seeall", {
+			Admin = GAMEMODE:LogPlayer(ply)
+		})
+	end
+
 end, COMMAND_ADMIN, {}, {CFLAG_NOCONSOLE},
 "Clientside", "Toggles seeall on or off.")
 
