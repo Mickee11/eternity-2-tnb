@@ -5,7 +5,7 @@ SWEP.Base 				= "eternity_firearm_base"
 SWEP.PrintName 			= "Ithaca Model 37"
 SWEP.Author 			= "TankNut"
 
-SWEP.ViewModel 			= Model("models/tnb/weapons/c_ithaca.mdl")
+SWEP.ViewModel 			= Model("models/weapons/arccw/c_bo1_ithaca.mdl")
 
 SWEP.WorldModel 		= Model("models/tnb/weapons/w_ithaca.mdl")
 
@@ -27,24 +27,24 @@ SWEP.Delay 				= 0.95
 SWEP.HipCone 			= 0.05 -- Hipfire spread 
 SWEP.AimCone 			= 0.025 -- ADS spread
 
-SWEP.Recoil 			= 1.8
+SWEP.Recoil 			= 2.8
 
-SWEP.FireSound 			= Sound("eternity.weapon_ithaca")
-SWEP.DrySound 			= Sound("eternity.dry_rifle")
+SWEP.FireSound 			= Sound("tekka/weapons/weapon_warhammer.wav")
+SWEP.DrySound 			= Sound("weapons/arccw_ud/870/dryfire.ogg")
 
 SWEP.RecoilMult 		= 0
 
 SWEP.AimOffset = {
-	ang = Angle(2, 0, 0),
-	pos = Vector(-7.875, -2, 1.75)
+	ang = Angle(0, 0, 0),
+	pos = Vector(-2.18, 2, 1.25)
 }
 
 SWEP.Animations = {
 	draw = "draw",
 	fire = {"shoot2"},
-	reload = "start_reload",
-	reloadinsert = "insert",
-	reloadfinish = "after_reload"
+	reload = "reload_in",
+	reloadinsert = "reload_loop",
+	reloadfinish = "reload_out"
 }
 
 function SWEP:FireAnimationEvent(pos, ang, event, options)

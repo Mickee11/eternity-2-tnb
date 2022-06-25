@@ -30,6 +30,9 @@ function GM:LoadItems()
 	-- Weapons
 	self:RegisterItemFolder("items/weapons")
 
+	-- Crafting
+	self:RegisterItemFolder("items/crafting")
+
 	log.Default("[mounting] Registering items from custom mopdules")
 
 	hook.Run("EternityPostLoadItems")

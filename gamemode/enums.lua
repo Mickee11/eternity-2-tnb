@@ -306,9 +306,9 @@ end
 AddCrafting("GENERIC", "General Crafting", {
 	["weapon_throwable_firebomb"] = {
 		["food_whiskey"] = 1,
-		["generic_rag"] = 1
-
+		["crafting_rag"] = 1
 	}
+
 })
 AddCrafting("COOKEDFOOD", "Food Preparation", {
 	["food_antliongib_cooked"] = {

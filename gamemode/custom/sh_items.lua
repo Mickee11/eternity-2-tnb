@@ -24,6 +24,8 @@ function GM:EternityPostLoadItems()
 
 	self:RegisterItemFolder("items/weapons")
 
+	self:RegisterItemFolder("items/crafting")
+
     -- Language Books
 	local curmodel = 1
 	local bookmdl = {
