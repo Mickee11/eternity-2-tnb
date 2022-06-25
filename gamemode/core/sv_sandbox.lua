@@ -440,7 +440,10 @@ function GM:LoadPermaProps()
 		file.Write(string.format("eternity/permaprops/%s.txt", game.GetMap()), pon.encode(entities))
 	end
 
+	local limit = GAMEMODE:GetConfig("PermaPropLimit")
+	local count = 0
 	for _, data in next, entities do
+		if count >= limit then break end
 		if !PERMAPROP_CLASSES[data.Class] then continue end
 
 		local ent = ents.Create(data.Class)
@@ -530,6 +533,7 @@ function GM:LoadPermaProps()
 		end
 
 		ent:SetPermaProp(true)
+		count = count + 1
 	end
 end
 
