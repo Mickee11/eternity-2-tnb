@@ -42,6 +42,10 @@ GM:RegisterLogType("admin_license", LOG_ADMIN, function(data)
 	end
 end)
 
+GM:RegisterLogType("admin_seeall", LOG_ADMIN, function(data)
+	return string.format("%s has toggled seeall", GAMEMODE:FormatPlayer(data.Admin))
+end)
+
 GM:RegisterLogType("admin_permission", LOG_ADMIN, function(data)
 	local name = string.lower(PERMISSIONS[data.Perm].Name)
 
@@ -198,4 +202,12 @@ end)
 
 GM:RegisterLogType("admin_mapbutton", LOG_ADMIN, function(data)
 		return string.format("%s has triggered %s", GAMEMODE:FormatPlayer(data.Admin), string.lower(data.Button))
+end)
+
+GM:RegisterLogType("admin_noclipseeall", LOG_ADMIN, function(data)
+		return string.format("%s has toggled NoClip seeall. NoClip seeall status is now %s", GAMEMODE:FormatPlayer(data.Admin), GAMEMODE:NoclipSeeall())
+end)
+
+GM:RegisterLogType("admin_disabledseeall", LOG_ADMIN, function(data)
+		return string.format("Seeall disabled for %s", GAMEMODE:FormatPlayer(data.Admin))
 end)
