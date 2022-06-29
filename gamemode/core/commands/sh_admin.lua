@@ -269,7 +269,18 @@ console.AddCommand("rpa_togglesaved", function(ply)
 		return
 	end
 
-	ent:SetPermaProp(not ent:PermaProp())
+	if permaprops_in_session < GAMEMODE:GetConfig("PermaPropLimit") then
+		ent:SetPermaProp(not ent:PermaProp())
+		if ent:PermaProp() then
+			permaprops_in_session = permaprops_in_session + 1 -- Keep track of the changed number of permaprops
+		else
+			permaprops_in_session = permaprops_in_session - 1 -- Keep track of the changed number of permaprops
+		end
+	else -- Disable saving if the limit has been exceeded, only remove.
+		ent:SetPermaProp(false)
+		permaprops_in_session = permaprops_in_session - 1 -- Keep track of the changed number of permaprops
+		Feedback(ply, string.format("Permaprop limit has been reached! Removing permaprop %s.", ent:GetModel()))
+	end
 
 	undo.ReplaceEntity(ent, NULL)
 	cleanup.ReplaceEntity(ent, NULL)

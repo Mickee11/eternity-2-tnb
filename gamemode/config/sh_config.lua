@@ -25,6 +25,8 @@ GM.Config.UIColors = {
 	ItemAllow = Color(40, 150, 20),
 }
 
+GM.Config.PermaPropLimit = 3
+
 GM.Config.MaxCharacters = 20
 
 GM.Config.MinNameLength = 3
