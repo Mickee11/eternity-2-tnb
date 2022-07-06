@@ -20,6 +20,7 @@ CLASS.NoFallDamage 			= false
 CLASS.GasImmune 			= false -- Immune to ent_zone_gas
 
 CLASS.EquipmentSlots 		= {} -- Used with EQUIPMENT_ slots, positioned on the right side in the character's inventory
+CLASS.EquipmentSlots2		= {} -- Exactly the same as above but the third row
 CLASS.WeaponSlots 			= {} -- Ditto but for the left side
 
 CLASS.ArmorLevel 			= ARMOR_NONE -- Built-in armor, stacks with equipment

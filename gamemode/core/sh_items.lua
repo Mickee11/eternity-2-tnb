@@ -14,24 +14,24 @@ function GM:LoadItems()
 	log.Default("[mounting] Registering item from core gamemode")
 
 	-- Template Registration
-	self:RegisterItem(includes.CurrentFolder(1) .. "items/base_item")
-	self:RegisterItem(includes.CurrentFolder(1) .. "items/base_radio.lua")
-	self:RegisterItem(includes.CurrentFolder(1) .. "items/base_stacking.lua")
-	self:RegisterItem(includes.CurrentFolder(1) .. "items/base_ammo.lua")
-	self:RegisterItem(includes.CurrentFolder(1) .. "items/base_weapon.lua")
-	self:RegisterItem(includes.CurrentFolder(1) .. "items/base_throwable.lua")
+	self:RegisterItem(includes.CurrentFolder(1) .. "items/base_item") -- Generic items
+	self:RegisterItem(includes.CurrentFolder(1) .. "items/base_radio.lua") -- Radio Items
+	self:RegisterItem(includes.CurrentFolder(1) .. "items/base_stacking.lua") -- Currency Items
+	self:RegisterItem(includes.CurrentFolder(1) .. "items/base_ammo.lua") -- Ammo Items
+	self:RegisterItem(includes.CurrentFolder(1) .. "items/base_weapon.lua") -- Firearms and Melee
+	self:RegisterItem(includes.CurrentFolder(1) .. "items/base_throwable.lua") -- Grenades
 
 	-- Generic / Miscellanious
-	self:RegisterItemFolder("items/generic/ammo")
-	self:RegisterItemFolder("items/generic/currency")
-	self:RegisterItemFolder("items/generic/radio")
-	self:RegisterItemFolder("items/generic")
+	self:RegisterItemFolder("items/generic/ammo") -- Ammo Folder
+	self:RegisterItemFolder("items/generic/currency") -- Curreny Folder
+	self:RegisterItemFolder("items/generic/radio") -- Radio Folder
+	self:RegisterItemFolder("items/generic") -- Base Item Folder
 
 	-- Weapons
-	self:RegisterItemFolder("items/weapons")
+	self:RegisterItemFolder("items/weapons") -- Weapon Folder
 
 	-- Crafting
-	self:RegisterItemFolder("items/crafting")
+	self:RegisterItemFolder("items/crafting") -- Crafting Folder
 
 	log.Default("[mounting] Registering items from custom mopdules")
 

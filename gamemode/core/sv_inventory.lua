@@ -18,6 +18,10 @@ function meta:LoadInventory()
 		inv[v] = GAMEMODE:CreateGrid(STORE_PLAYER, self:CharID(), v, 1, 1, true, true).NetworkID
 	end
 
+	 for _, v in pairs(species.EquipmentSlots2) do
+        inv[v] = GAMEMODE:CreateGrid(STORE_PLAYER, self:CharID(), v, 1, 1, true, true).NetworkID
+    end
+    
 	for _, v in pairs(species.WeaponSlots) do
 		inv[v] = GAMEMODE:CreateGrid(STORE_PLAYER, self:CharID(), v, 1, 1, true, true).NetworkID
 	end

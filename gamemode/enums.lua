@@ -66,25 +66,28 @@ local function AddEquipment(id, var, name)
 	_G.EQUIPMENT_TO_TEXT[id] = name
 end
 
--- Regular Human Clothing
-AddEquipment(1, "HEAD", "Headgear")
-AddEquipment(2, "TORSO", "Torso")
-AddEquipment(3, "BACK", "Backpack")
-AddEquipment(4, "LEGS", "Legs")
-AddEquipment(5, "GLOVES", "Gloves")
+-- Regular Human Clothing Inventory Slots
+AddEquipment(1, "HEAD", "Hat")
+AddEquipment(2, "EYES", "Glasses")
+AddEquipment(3, "MASK", "Mask")
+AddEquipment(4, "SCARF", "Scarf")
+AddEquipment(5, "TORSO", "Torso")
+AddEquipment(6, "BACK", "Backpack")
+AddEquipment(7, "LEGS", "Legs")
+AddEquipment(9, "GLOVES", "Gloves")
 
--- Common Weapon Slots
-AddEquipment(6, "PRIMARY", "Primary")
-AddEquipment(7, "SECONDARY", "Sidearm")
-AddEquipment(9, "RADIO", "Radio")
-AddEquipment(10, "MELEE", "Melee")
-AddEquipment(11, "MISC", "Misc")
+-- Common Weapon Inventory Slots
+AddEquipment(10, "PRIMARY", "Primary")
+AddEquipment(11, "SECONDARY", "Sidearm")
+AddEquipment(12, "RADIO", "Radio")
+AddEquipment(13, "MELEE", "Melee")
+AddEquipment(14, "MISC", "Misc")
 
--- Special Item Slots
-AddEquipment(12, "ARMOR", "Armor")
-AddEquipment(13, "COMBINE", "Combine")
-AddEquipment(14, "VORTIGAUNT", "Clothing")
-AddEquipment(15, "XENIAN", "Model")
+-- Special Item Inventory Slots
+AddEquipment(15, "ARMOR", "Armor")
+AddEquipment(16, "COMBINE", "Combine")
+AddEquipment(17, "VORTIGAUNT", "Clothing")
+AddEquipment(18, "XENIAN", "Model")
 
 TEAMS = {}
 

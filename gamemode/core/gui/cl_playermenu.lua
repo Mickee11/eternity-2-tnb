@@ -1,7 +1,7 @@
 local PANEL = {}
 
 function PANEL:Init()
-	self:SetSize(800, 500)
+	self:SetSize(825, 500)
 
 	self:SetToggleKey("gm_showspare1")
 	self:SetAllowEscape(true)
@@ -202,6 +202,15 @@ function PANEL:CreateInventory()
 	self.Inventory = self.Content:Add("eternity_itemgrid")
 	self.Inventory:Setup(LocalPlayer():GetInventory("Main"))
 
+
+		self.Equipment2 = self.Content:Add("eternity_panel")
+
+	self.Equipment2:Dock(RIGHT)
+	self.Equipment2:SetWide(GAMEMODE:GetConfig("ItemIconSize"))
+	self.Equipment2:DockMargin (5, 0, 0, 0)
+
+	AddSlots(self.Equipment2,LocalPlayer():GetActiveSpecies().EquipmentSlots2)
+
 	self.Equipment = self.Content:Add("eternity_panel")
 
 	self.Equipment:Dock(RIGHT)
@@ -233,6 +242,7 @@ function PANEL:CreateInventory()
 	self.Weapons = self.Content:Add("eternity_panel")
 	self.Weapons:Dock(RIGHT)
 	self.Weapons:SetWide(GAMEMODE:GetConfig("ItemIconSize"))
+	self.Weapons:DockMargin (2, 0, 0, 0)
 
 	AddSlots(self.Weapons, LocalPlayer():GetActiveSpecies().WeaponSlots)
 end
