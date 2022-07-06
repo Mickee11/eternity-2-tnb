@@ -440,6 +440,8 @@ function GM:LoadPermaProps()
 		file.Write(string.format("eternity/permaprops/%s.txt", game.GetMap()), pon.encode(entities))
 	end
 
+	local limit = GAMEMODE:GetConfig("PermaPropLimit")
+	permaprops_in_session = 0 -- referenced in rpa_togglesaved
 	for _, data in next, entities do
 		if !PERMAPROP_CLASSES[data.Class] then continue end
 
@@ -530,6 +532,13 @@ function GM:LoadPermaProps()
 		end
 
 		ent:SetPermaProp(true)
+		permaprops_in_session = permaprops_in_session + 1 -- Save a total of how many permaprops there are. This will be referenced against the limit
+	end
+	log.Default(string.format("[PERMAPROPS] %s permaprops loaded", permaprops_in_session))
+	if permaprops_in_session >= limit then
+		local permaprops_exceeded_amount = permaprops_in_session - limit
+		log.Default(string.format("[PERMAPROPS] Warning! Permaprops loaded this session exceed the server-level configured \z
+			limit of %s by %s! It will not be possible to add new permaprops until these have been removed or the limit is changed.", limit, permaprops_exceeded_amount))
 	end
 end
 

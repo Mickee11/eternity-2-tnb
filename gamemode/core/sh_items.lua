@@ -33,7 +33,7 @@ function GM:LoadItems()
 	-- Crafting
 	self:RegisterItemFolder("items/crafting") -- Crafting Folder
 
-	log.Default("[mounting] Registering items from custom mopdules")
+	log.Default("[mounting] Registering items from custom modules")
 
 	hook.Run("EternityPostLoadItems")
 end
