@@ -3,9 +3,9 @@ ITEM = class.Create("base_clothing")
 ITEM.Name 				= "Gasmask"
 ITEM.Description 		= "How does this thing still hold a seal after all these years?"
 
-ITEM.Model 				= Model("models/tnb/items/gasmask.mdl")
+ITEM.Model 				= Model("models/tnb/items/trp/headgear/mask5.mdl")
 
-ITEM.EquipmentSlots 	= {EQUIPMENT_HEAD}
+ITEM.EquipmentSlots 	= {EQUIPMENT_MASK}
 
 ITEM.License 			= LICENSE_GREYMARKET
 ITEM.UnitPrice 			= 500
@@ -20,7 +20,7 @@ if SERVER then
 		return {
 			_base = {
 				Bodygroups = {
-					headgear = 8
+					mask = 5
 				}
 			}
 		}

@@ -13,12 +13,31 @@ ITEM.SellPrice 			= 30
 
 ITEM.ItemGroup 			= "Clothing"
 
+function ITEM:GetOptions(ply)
+	local tab = {}
+
+	table.insert(tab, {
+		Name = "Flip",
+		Callback = function()
+			self.Flipped = not self.Flipped
+
+			ply:HandlePlayerModel()
+		end
+	})
+
+	for _, v in pairs(self:ParentCall("GetOptions",ply)) do
+		table.insert(tab, v)
+	end
+
+	return tab
+end
+
 if SERVER then
 	function ITEM:GetModelData(ply)
 		return {
 			_base = {
 				Bodygroups = {
-					hat = 3
+					hat = self.Flipped and 1 or 3
 				}
 			}
 		}
@@ -26,3 +45,5 @@ if SERVER then
 end
 
 return ITEM
+
+

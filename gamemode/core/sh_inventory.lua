@@ -32,7 +32,7 @@ function meta:CanMoveItem(item, from, to)
 	return true
 end
 
-function meta:GetEquipment(slot)
+function meta:GetEquipment(slot) -- How the gamemode gets your slots so your species works with it
 	if slot then
 		local inventory = self:GetInventory(slot)
 
@@ -46,6 +46,16 @@ function meta:GetEquipment(slot)
 		local species = self:GetActiveSpecies()
 
 		for _, v in pairs(species.EquipmentSlots) do
+			local inventory = self:GetInventory(v)
+
+			if not inventory then
+				continue
+			end
+
+			tab[v] = inventory:GetItem(1, 1) or nil
+		end
+
+		for _, v in pairs(species.EquipmentSlots2) do
 			local inventory = self:GetInventory(v)
 
 			if not inventory then

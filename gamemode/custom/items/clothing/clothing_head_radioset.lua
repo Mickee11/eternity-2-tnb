@@ -3,7 +3,7 @@ ITEM = class.Create("base_clothing")
 ITEM.Name 				= "Radio Headset"
 ITEM.Description 		= "A handy, portable microphone. Could be plugged into a reciever."
 
-ITEM.Model 				= Model("models/tnb/trpitems/headset.mdl")
+ITEM.Model 				= Model("models/tnb/items/trp/headgear/hat11.mdl")
 
 ITEM.EquipmentSlots 	= {EQUIPMENT_HEAD}
 
@@ -18,7 +18,7 @@ if SERVER then
 		return {
 			_base = {
 				Bodygroups = {
-					headgear = 2
+					headset = 1
 				}
 			}
 		}
