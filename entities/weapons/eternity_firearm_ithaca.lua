@@ -5,7 +5,7 @@ SWEP.Base 				= "eternity_firearm_base"
 SWEP.PrintName 			= "Ithaca Model 37"
 SWEP.Author 			= "TankNut"
 
-SWEP.ViewModel 			= Model("models/weapons/arccw/c_bo1_ithaca.mdl")
+SWEP.ViewModel 			= Model("models/tnb/weapons/c_ithaca.mdl")
 
 SWEP.WorldModel 		= Model("models/tnb/weapons/w_ithaca.mdl")
 
@@ -42,9 +42,9 @@ SWEP.AimOffset = {
 SWEP.Animations = {
 	draw = "draw",
 	fire = {"shoot2"},
-	reload = "reload_in",
-	reloadinsert = "reload_loop",
-	reloadfinish = "reload_out"
+	reload = "start_reload",
+	reloadinsert = "insert",
+	reloadfinish = "after_reload"
 }
 
 function SWEP:FireAnimationEvent(pos, ang, event, options)

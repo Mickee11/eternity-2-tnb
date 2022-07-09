@@ -3,7 +3,7 @@ ITEM = class.Create("base_clothing")
 ITEM.Name 				= "Beanie"
 ITEM.Description 		= "A generic beanie, nothing to it really."
 
-ITEM.Model 				= Model("models/tnb/items/beanie.mdl")
+ITEM.Model 				= Model("models/tnb/items/trp/headgear/hat5.mdl")
 
 ITEM.EquipmentSlots 	= {EQUIPMENT_HEAD}
 
@@ -18,7 +18,7 @@ if SERVER then
 		return {
 			_base = {
 				Bodygroups = {
-					headgear = 7
+					hat = 5
 				}
 			}
 		}
