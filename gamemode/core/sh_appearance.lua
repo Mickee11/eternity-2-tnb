@@ -86,6 +86,7 @@ function meta:ApplyModel(tab)
 	end
 
 	if tab.HideHead then
+		self:SetSkin(0)
 		model.HideHead(self)
 	end
 
