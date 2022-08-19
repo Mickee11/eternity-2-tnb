@@ -92,7 +92,7 @@ GM:AddFireSound("eternity.weapon_aek", "tnb/weapons/common/firearms/aek971/fire1
 GM:AddFireSound("eternity.weapon_aek.sd", "tnb/weapons/common/firearms/aek971/fire1.wav", 75, 255)
 GM:AddFireSound("eternity.weapon_sks", "tnb/weapons/common/firearms/sks/fire1.wav", 140)
 GM:AddFireSound("eternity.weapon_rpk", "tnb/weapons/common/firearms/rpk/fire1.wav", 140)
-GM:AddFireSound("eternity.weapon_spas12", "tnb/weapons/common/firearms/spas12/fire1.wav", 140)
+GM:AddFireSound("eternity.weapon_doublebarrel", "weapons/tfa_doublebarrel/double_barrel_fp.wav", 140)
 GM:AddFireSound("eternity.weapon_winchester", "tnb/weapons/common/firearms/winchester24/fire1.wav", 140)
 GM:AddFireSound("eternity.weapon_ithaca", "tnb/weapons/common/firearms/ithaca/fire1.wav", 140)
 GM:AddFireSound("eternity.weapon_mossberg", "tnb/weapons/common/firearms/mossberg/fire1.wav", 140)
