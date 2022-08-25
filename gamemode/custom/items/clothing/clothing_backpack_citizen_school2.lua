@@ -1,7 +1,7 @@
 ITEM = class.Create("base_clothing")
 
-ITEM.Name 				= "Combine Backpack"
-ITEM.Description 		= "A black backpack intended for use by those who serve the Combine."
+ITEM.Name 				= "Small School Bag"
+ITEM.Description 		= "Back to school! All a student will ever need."
 
 ITEM.Model 				= Model("models/props_c17/suitcase_passenger_physics.mdl")
 

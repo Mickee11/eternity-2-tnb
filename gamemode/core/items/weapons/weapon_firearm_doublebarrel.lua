@@ -15,6 +15,21 @@ ITEM.License 			= LICENSE_BLACKMARKET
 ITEM.UnitPrice          = 15000
 ITEM.SellPrice          = 10000
 
+ITEM.Variants			= {
+	Default = {
+		WeaponClass = "eternity_firearm_doublebarrel",
+		Model = "models/weapons/w_doublebarrel_new.mdl",
+		Skin = {0},
+		Bodygroups = {},
+		Title = "Default",
+		Cost = 0,
+		Refund = 2,
+		Description = "Placeholder.",
+		Width = 3,
+		Height = 2
+	},
+}
+
 ITEM.AmmoTypes 			= {
 	["ammo_12gauge_buckshot"] = true,
 	["ammo_12gauge_slug"] = true
