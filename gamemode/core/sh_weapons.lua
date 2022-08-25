@@ -15,19 +15,11 @@ end
 function meta:HandleWeaponDraw(weapon)
 	weapon = weapon or self:GetActiveWeapon()
 
-	if not IsValid(weapon) then
-		return
-	end
+if not IsValid(weapon) then
+  	return
+end
 
-	local state = self:GetNoDraw()
-
-	if GAMEMODE:GetCloakVal(self) > 0.3 then
-		self:DrawShadow(false)
-	else
-		self:DrawShadow(true)
-	end
-
-	weapon:SetNoDraw(state)
+	weapon:SetNoDraw(self:GetNoDraw())
 end
 
 hook.Add("Think", "Weapons", function()
