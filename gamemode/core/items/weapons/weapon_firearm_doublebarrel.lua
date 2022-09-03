@@ -25,9 +25,22 @@ ITEM.Variants			= {
 		Cost = 0,
 		Refund = 2,
 		Description = "Placeholder.",
-		Width = 3,
+		Width = 4,
 		Height = 2
 	},
+	SawnOff = {
+		WeaponClass = "eternity_firearm_doubebarrelsawnoff",
+		Model = "models/tnb/weapons/w_sawnoff.mdl",
+		Skin = 0,
+		Bodygroups = {[1] = 1},
+		Title = "Default",
+		Cost = 0,
+		Refund = 2,
+		Description = "Placeholder.",
+		Width = 2,
+		Height = 2
+
+	}
 }
 
 ITEM.AmmoTypes 			= {
