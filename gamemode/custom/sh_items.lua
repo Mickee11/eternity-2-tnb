@@ -10,17 +10,17 @@ function GM:EternityPostLoadItems()
     self:RegisterItem(includes.CurrentFolder(1) .. "items/base_consumable.lua")
     self:RegisterItemFolder("items/consumables")
 
-    self:RegisterItem(includes.CurrentFolder(1) .. "items/base_ration.lua")
-    self:RegisterItemFolder("items/rations")
+    -- self:RegisterItem(includes.CurrentFolder(1) .. "items/base_ration.lua")
+    -- self:RegisterItemFolder("items/rations")
 
     self:RegisterItem(includes.CurrentFolder(1) .. "items/base_xenian.lua")
     self:RegisterItemFolder("items/xenian")
 
-    self:RegisterItem(includes.CurrentFolder(1) .. "items/base_vortigaunt.lua")
-    self:RegisterItemFolder("items/vortigaunt")
+    -- self:RegisterItem(includes.CurrentFolder(1) .. "items/base_vortigaunt.lua")
+    -- self:RegisterItemFolder("items/vortigaunt")
 
-    self:RegisterItem(includes.CurrentFolder(1) .. "items/base_combine.lua")
-    self:RegisterItemFolder("items/combine")
+    -- self:RegisterItem(includes.CurrentFolder(1) .. "items/base_combine.lua")
+    -- self:RegisterItemFolder("items/combine")
 
 	self:RegisterItemFolder("items/weapons")
 
