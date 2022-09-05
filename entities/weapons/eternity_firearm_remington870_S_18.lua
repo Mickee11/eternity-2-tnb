@@ -2,11 +2,12 @@ AddCSLuaFile()
 
 SWEP.Base 				= "eternity_firearm_base"
 
-SWEP.PrintName 			= "Stevens 620"
+SWEP.PrintName 			= "Remington 870"
 SWEP.Author 			= "TankNut"
 
-SWEP.ViewModel 			= Model("models/weapons/v_nam_stevens620.mdl")
-SWEP.WorldModel 		= Model("models/tnb/weapons/w_ithaca.mdl")
+SWEP.ViewModel 			= Model("models/weapons/smc/r870/c_remington_m870.mdl")
+
+SWEP.WorldModel 		= Model("models/tnb/weapons/w_mossberg.mdl")
 
 SWEP.HoldType 			= "shotgun"
 SWEP.HoldTypeLowered 	= "passive"
@@ -22,21 +23,21 @@ SWEP.Animated 			= true
 SWEP.AnimatedADS 		= true
 
 SWEP.ClipSize 			= 5
-SWEP.Delay 				= 0.95
+SWEP.Delay 				= 0.45
 
-SWEP.HipCone 			= 0.05 -- Hipfire spread 
-SWEP.AimCone 			= 0.025 -- ADS spread
+SWEP.HipCone 			= 0.00 -- Hipfire spread 
+SWEP.AimCone 			= 0.00 -- ADS spread
 
-SWEP.Recoil 			= 2.5
+SWEP.Recoil 			= 1.5
 
-SWEP.FireSound 			= Sound("weapons/tfa_nam_stevens620/stevens620_fp.wav")
-SWEP.DrySound 			= Sound("weapons/tfa_nam_stevens620/stevens620_empty.wav")
+SWEP.FireSound 			= Sound("weapons/remington_870/870_shoot_1.wav")
+SWEP.DrySound 			= Sound("weapons/remington_870/870_empty.wav")
 
 SWEP.RecoilMult 		= 0
 
 SWEP.AimOffset = {
 	ang = Angle(0, 0, 0),
-	pos = Vector(-2, 1, 1)
+	pos = Vector(-2.4, 2, 1.40)
 }
 
 SWEP.DefaultOffset = {
