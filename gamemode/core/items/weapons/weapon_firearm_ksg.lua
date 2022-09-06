@@ -1,6 +1,6 @@
 ITEM = class.Create("base_weapon")
 
-ITEM.Name 				= "Remington 870"
+ITEM.Name 				= "Kel-Tec KSG"
 ITEM.Description 		= "Placeholder."
 ITEM.OutlineColor		= Color(125, 159, 115)
 
@@ -17,15 +17,15 @@ ITEM.SellPrice          = 7000
 
 ITEM.Variants			= {
 	Default = {
-		WeaponClass = "eternity_firearm_remington870DefaultStock",
-		Model = "models/tnb/weapons/w_mossberg.mdl",
+		WeaponClass = "eternity_firearm_ksg",
+		Model = "models/weapons/tfa_ins2/w_ksg.mdl",
 		Skin = 0,
 		Bodygroups = {},
 		Title = "Default",
 		Cost = 0,
 		Refund = 2,
-		Description = "The base model of the Remington 870.",
-		Width = 6,
+		Description = "The base model of the KSG.",
+		Width = 5,
 		Height = 1
 	},
 }

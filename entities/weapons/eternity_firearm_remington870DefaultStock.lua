@@ -22,13 +22,13 @@ SWEP.PumpAction			= true
 SWEP.Animated 			= true
 SWEP.AnimatedADS 		= true
 
-SWEP.ClipSize 			= 5
-SWEP.Delay 				= 0.45
+SWEP.ClipSize 			= 7
+SWEP.Delay 				= 1
 
-SWEP.HipCone 			= 0.00 -- Hipfire spread 
-SWEP.AimCone 			= 0.00 -- ADS spread
+SWEP.HipCone 			= 0.05 -- Hipfire spread 
+SWEP.AimCone 			= 0.025 -- ADS spread
 
-SWEP.Recoil 			= 1.5
+SWEP.Recoil 			= 1.8
 
 SWEP.FireSound 			= Sound("weapons/remington_870/870_shoot_1.wav")
 SWEP.DrySound 			= Sound("weapons/remington_870/870_empty.wav")
@@ -37,12 +37,12 @@ SWEP.RecoilMult 		= 0
 
 SWEP.AimOffset = {
 	ang = Angle(0, 0, 0),
-	pos = Vector(-2.4, 2, 1.40)
+	pos = Vector(-2.4, 2, 1.4)
 }
 
 SWEP.DefaultOffset = {
     ang = Angle(0, 0, 0),
-    pos = Vector(1, 3, 0)
+    pos = Vector(0, 5, 0)
 }
 
 SWEP.Animations = {
