@@ -19,7 +19,7 @@ SWEP.Firemodes 			= {
 SWEP.Animated 			= true
 SWEP.AnimatedADS 		= true
 
-SWEP.ClipSize 			= 10
+SWEP.ClipSize 			= 14
 SWEP.Delay 				= 0.165
 
 SWEP.HipCone 			= 0.02 -- Hipfire spread 

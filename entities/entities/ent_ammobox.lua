@@ -26,6 +26,7 @@ ENT.AmmoTypes 		= {
 	["ammo_556x45mm"] = 100,
 	["ammo_762x39mm"] = 100,
 	["ammo_762x51mm"] = 100,
+	["ammo_762x54mmR"] = 100,
 	["ammo_12gauge_buckshot"] = 50,
 	["ammo_12gauge_slug"] = 20,
 	["ammo_pulse_basic"] = 50,
