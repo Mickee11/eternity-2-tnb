@@ -2,14 +2,12 @@ AddCSLuaFile()
 
 SWEP.Base 				= "eternity_firearm_base"
 
-SWEP.PrintName 			= "Glock 17"
+SWEP.PrintName 			= "S&W 659"
 SWEP.Author 			= "TankNut"
 
-SWEP.ViewModel 			= Model("models/tnb/weapons/c_glock.mdl")
-SWEP.VMBodyGroups		= {[1] = 0}
+SWEP.ViewModel 			= Model("models/weapons/tfa_ins2/c_sw659.mdl")
 
-SWEP.WorldModel 		= Model("models/tnb/weapons/w_glock.mdl")
-SWEP.BodyGroups			= {[1] = 0}
+SWEP.WorldModel 		= Model("models/tnb/weapons/w_45.mdl")
 
 SWEP.HoldType 			= "pistol"
 SWEP.HoldTypeLowered 	= "normal"
@@ -21,7 +19,7 @@ SWEP.Firemodes 			= {
 SWEP.Animated 			= true
 SWEP.AnimatedADS 		= true
 
-SWEP.ClipSize 			= 17
+SWEP.ClipSize 			= 10
 SWEP.Delay 				= 0.165
 
 SWEP.HipCone 			= 0.02 -- Hipfire spread 
@@ -29,22 +27,28 @@ SWEP.AimCone 			= 0.01 -- ADS spread
 
 SWEP.Recoil 			= 0.9
 
-SWEP.FireSound 			= Sound("eternity.weapon_glock")
-SWEP.DrySound 			= Sound("eternity.dry_pistol")
+SWEP.FireSound 			= Sound("weapons/tfa_ins2/sw659/fp.wav")
+SWEP.DrySound 			= Sound("weapons/tfa_ins2/sw659/empty.wav")
 
 SWEP.RecoilMult 		= 0
 
 SWEP.AimOffset = {
-	ang = Angle(1, 0, 0),
-	pos = Vector(-6.4, -7.5, 2.875)
+	ang = Angle(0, 0, 0),
+	pos = Vector(-3.6, 2, 0.5)
 }
 
+SWEP.DefaultOffset = {
+    ang = Angle(0, 0, 0),
+    pos = Vector(0, 3, -2)
+}
+
+
 SWEP.Animations = {
-	fire = {"shoot1", "shoot2", "shoot3"},
-	fire_last = {"shoot1", "shoot2", "shoot3"},
-	reload = "reload",
-	reload_empty = "reload",
-	draw = "draw"
+	fire = "base_fire",
+	fire_last = "base_firelast",
+	reload = "base_reload",
+	reload_empty = "base_reload_empty",
+	draw = "base_draw"
 }
 
 function SWEP:FireAnimationEvent(pos, ang, event, options)

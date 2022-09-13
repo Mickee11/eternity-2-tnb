@@ -2,12 +2,12 @@ AddCSLuaFile()
 
 SWEP.Base 				= "eternity_firearm_base"
 
-SWEP.PrintName 			= "Walther P99"
+SWEP.PrintName 			= "CZ75B"
 SWEP.Author 			= "TankNut"
 
-SWEP.ViewModel 			= Model("models/weapons/c_ins2_pist_p99.mdl")
+SWEP.ViewModel 			= Model("models/weapons/tfa_ins2/c_cz75b.mdl")
 
-SWEP.WorldModel 		= Model("models/tnb/weapons/w_p99.mdl")
+SWEP.WorldModel 		= Model("models/tnb/weapons/w_grach.mdl")
 
 SWEP.HoldType 			= "pistol"
 SWEP.HoldTypeLowered 	= "normal"
@@ -19,7 +19,7 @@ SWEP.Firemodes 			= {
 SWEP.Animated 			= true
 SWEP.AnimatedADS 		= true
 
-SWEP.ClipSize 			= 16
+SWEP.ClipSize 			= 12
 SWEP.Delay 				= 0.165
 
 SWEP.HipCone 			= 0.02 -- Hipfire spread 
@@ -27,14 +27,14 @@ SWEP.AimCone 			= 0.01 -- ADS spread
 
 SWEP.Recoil 			= 0.9
 
-SWEP.FireSound 			= Sound("weapons/p99/fire.wav")
-SWEP.DrySound 			= Sound("weapons/p99/empty.wav")
+SWEP.FireSound 			= Sound("weapons/tfa_ins2/cz75/fp.wav")
+SWEP.DrySound 			= Sound("weapons/tfa_ins2/cz75/empty.wav")
 
 SWEP.RecoilMult 		= 0
 
 SWEP.AimOffset = {
 	ang = Angle(0, 0, 0),
-	pos = Vector(-1.88, 3, 0.25)
+	pos = Vector(-2, 2, 0)
 }
 
 SWEP.DefaultOffset = {
@@ -47,7 +47,7 @@ SWEP.Animations = {
 	fire = {"base_fire", "base_fire2", "base_fire3"},
 	fire_last = {"base_firelast"},
 	reload = "base_reload",
-	reload_empty = "base_reloadempty",
+	reload_empty = "base_reload_empty",
 	draw = "base_draw"
 }
 

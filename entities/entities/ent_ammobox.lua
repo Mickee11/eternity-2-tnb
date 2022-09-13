@@ -18,6 +18,7 @@ ENT.Cooldown 		= 900 -- 15 minutes
 -- ["ammo item"] = return
 ENT.AmmoTypes 		= {
 	["ammo_9x19mm"] = 100,
+	["ammo_9x18mm"] = 100,
 	["ammo_45acp"] = 100,
 	["ammo_46x30mm"] = 100,
 	["ammo_303british"] = 100,

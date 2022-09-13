@@ -2,12 +2,12 @@ AddCSLuaFile()
 
 SWEP.Base 				= "eternity_firearm_base"
 
-SWEP.PrintName 			= "Walther P99"
+SWEP.PrintName 			= "Makarov"
 SWEP.Author 			= "TankNut"
 
-SWEP.ViewModel 			= Model("models/weapons/c_ins2_pist_p99.mdl")
+SWEP.ViewModel 			= Model("models/weapons/tfa_at_pm_ins_s/v_makarov.mdl")
 
-SWEP.WorldModel 		= Model("models/tnb/weapons/w_p99.mdl")
+SWEP.WorldModel 		= Model("models/tnb/weapons/w_makarov.mdl")
 
 SWEP.HoldType 			= "pistol"
 SWEP.HoldTypeLowered 	= "normal"
@@ -19,7 +19,7 @@ SWEP.Firemodes 			= {
 SWEP.Animated 			= true
 SWEP.AnimatedADS 		= true
 
-SWEP.ClipSize 			= 16
+SWEP.ClipSize 			= 8
 SWEP.Delay 				= 0.165
 
 SWEP.HipCone 			= 0.02 -- Hipfire spread 
@@ -27,14 +27,14 @@ SWEP.AimCone 			= 0.01 -- ADS spread
 
 SWEP.Recoil 			= 0.9
 
-SWEP.FireSound 			= Sound("weapons/p99/fire.wav")
-SWEP.DrySound 			= Sound("weapons/p99/empty.wav")
+SWEP.FireSound 			= Sound("weapons/tfa_at_pm_ins_s/makarov_fp.wav")
+SWEP.DrySound 			= Sound("weapons/tfa_at_pm_ins_s/makarov_empty.wav")
 
 SWEP.RecoilMult 		= 0
 
 SWEP.AimOffset = {
 	ang = Angle(0, 0, 0),
-	pos = Vector(-1.88, 3, 0.25)
+	pos = Vector(-2.45, 2, 1.05)
 }
 
 SWEP.DefaultOffset = {

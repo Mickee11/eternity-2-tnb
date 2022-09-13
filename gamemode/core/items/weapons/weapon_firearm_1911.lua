@@ -1,10 +1,10 @@
 ITEM = class.Create("base_weapon")
 
-ITEM.Name 				= "Walther P99"
-ITEM.Description 		= "An German semi-automatic pistol designed in the late 1990s.\n\nChambered in 9x19mm."
+ITEM.Name 				= "M1911"
+ITEM.Description 		= "American made. Survived Two World Wars.\n\nChambered in 45 ACP."
 ITEM.OutlineColor		= Color(125, 159, 115)
 
-ITEM.Model 				= Model("models/weapons/w_ins2_pist_p99.mdl")
+ITEM.Model 				= Model("models/weapons/m1911/w_m1911.mdl")
 
 ITEM.Width 				= 2
 ITEM.Height 			= 1
@@ -17,21 +17,21 @@ ITEM.SellPrice          = 1350
 
 ITEM.Variants			= {
 	Default = {
-		WeaponClass = "eternity_firearm_p99",
-		Model = "models/weapons/w_ins2_pist_p99.mdl",
+		WeaponClass = "eternity_firearm_m9",
+		Model = "models/weapons/m1911/w_m1911.mdl",
 		Skin = 0,
 		Bodygroups = {},
 		Title = "Default",
 		Cost = 0,
 		Refund = 1,
-		Description = "The base model of the Walther P99.",
+		Description = "The base model of the M1911.",
 		Width = 2,
 		Height = 1
 	},
 }
 
 ITEM.AmmoTypes 			= {
-	["ammo_9x19mm"] = true
+	["ammo_45acp"] = true
 }
 
 return ITEM
