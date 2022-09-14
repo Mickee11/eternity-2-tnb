@@ -1,10 +1,10 @@
 ITEM = class.Create("base_weapon")
 
-ITEM.Name 				= "M24"
-ITEM.Description 		= "An American long action weapon system designed in the late 1980s.\n\nChambered in 7.62×51mm."
+ITEM.Name 				= "Kar98K"
+ITEM.Description 		= "German long action weapon system designed in the mid 1930's.\n\nModified to fit 7.62×51mm."
 ITEM.OutlineColor		= Color(125, 159, 115)
 
-ITEM.Model 				= Model("models/weapons/smc/m24/w_m24.mdl")
+ITEM.Model 				= Model("models/weapons/tfa_ins2/w_k98.mdl")
 
 ITEM.Width 				= 6
 ITEM.Height 			= 1
@@ -17,14 +17,14 @@ ITEM.SellPrice          = 20000
 
 ITEM.Variants			= {
 	Default = {
-		WeaponClass = "eternity_firearm_m24",
-		Model = "models/weapons/smc/m24/w_m24.mdl",
+		WeaponClass = "eternity_firearm_kar98k",
+		Model = "models/weapons/tfa_ins2/w_k98.mdl",
 		Skin = 0,
 		Bodygroups = {},
 		Title = "Default",
 		Cost = 0,
 		Refund = 3,
-		Description = "The base model of the M24.",
+		Description = "The base model of the Kar98K.",
 		Width = 6,
 		Height = 1
 	},

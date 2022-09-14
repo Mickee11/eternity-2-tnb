@@ -46,8 +46,8 @@ SWEP.DefaultOffset = {
 SWEP.Animations = {
 	fire = {"base_fire", "base_fire2", "base_fire3"},
 	fire_last = {"base_firelast"},
-	reload = "base_reload",
-	reload_empty = "base_reloadempty",
+	reload = "base_reload_extmag",
+	reload_empty = "base_reloadempty_extmag",
 	draw = "base_draw"
 }
 

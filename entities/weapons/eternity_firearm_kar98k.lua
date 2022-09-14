@@ -2,11 +2,11 @@ AddCSLuaFile()
 
 SWEP.Base 				= "eternity_firearm_base"
 
-SWEP.PrintName 			= "M24"
+SWEP.PrintName 			= "Kar98K"
 SWEP.Author 			= "Mickee"
 
-SWEP.ViewModel 			= Model("models/weapons/smc/m24/c_m24.mdl")
-SWEP.WorldModel 		= Model("models/tnb/weapons/w_m24.mdl")
+SWEP.ViewModel 			= Model("models/weapons/tfa_ins2/c_k98.mdl")
+SWEP.WorldModel 		= Model("models/tnb/weapons/w_k98.mdl")
 
 SWEP.HoldType 			= "sniper"
 SWEP.HoldTypeLowered 	= "passive"
@@ -29,28 +29,28 @@ SWEP.AimCone 			= 0.001 -- ADS spread
 
 SWEP.Recoil 			= 1.0
 
-SWEP.FireSound 			= Sound("weapons/m24sws/m24_shoot_default.wav")
-SWEP.DrySound 			= Sound("weapons/m24sws/m24_empty.wav")
+SWEP.FireSound 			= Sound("weapons/tfa_ins2/k98/m40a1_fp.wav")
+SWEP.DrySound 			= Sound("weapons/tfa_ins2/k98/m40a1_empty.wav")
 
 SWEP.RecoilMult 		= 0
 
 SWEP.AimOffset = {
 	ang = Angle(1, 0, 1),
-	pos = Vector(-3.2, 3, 1.5)
+	pos = Vector(-4.25, 2, 0)
 }
 
 SWEP.DefaultOffset = {
     ang = Angle(0, 0, 0),
-    pos = Vector(1, 5, 0.5)
+    pos = Vector(1.5, 5, -1)
 }
 
 SWEP.Animations = {
 	fire = "base_fire_start",
 	pump = "base_fire_end",
-	reload = "base_reload_start",
-	reloadinsert = "base_reload_insert",
-	reloadfinish = "base_reload_end_empty",
-	idle = "base_idle",
+	fire_last = "base_firelast",
+	reload = "reload_start",
+	reloadinsert = "reload_insert",
+	reloadfinish = "reload_end",
 	draw = "base_draw"
 }
 

@@ -5,8 +5,7 @@ SWEP.Base 				= "eternity_firearm_base"
 SWEP.PrintName 			= "M4A1"
 SWEP.Author 			= "TankNut"
 
-SWEP.ViewModel 			= Model("models/tnb/weapons/c_m4.mdl")
-SWEP.VMBodyGroups		= {[1] = 0}
+SWEP.ViewModel 			= Model("models/weapons/inss_m4a1/v_m4a1_v9.mdl")
 
 SWEP.WorldModel 		= Model("models/tnb/weapons/w_m4.mdl")
 SWEP.BodyGroups			= {[1] = 0}
@@ -28,22 +27,26 @@ SWEP.Delay 				= 0.1
 SWEP.HipCone 			= 0.02 -- Hipfire spread 
 SWEP.AimCone 			= 0.01 -- ADS spread
 
-SWEP.Recoil 			= 0.95
+SWEP.Recoil 			= 1.4
 
-SWEP.FireSound 			= Sound("eternity.weapon_m16a2")
-SWEP.DrySound 			= Sound("eternity.dry_rifle")
+SWEP.FireSound 			= Sound("weapons/tfa_ins2/m4a1/m4a1_fire.wav")
+SWEP.DrySound 			= Sound("weapons/tfa_ins2/m4a1/m4a1_empty.wav")
 
 SWEP.RecoilMult 		= 0
 
 SWEP.AimOffset = {
 	ang = Angle(0, 0, 0),
-	pos = Vector(-6.52, -7.5, 1.1)
+	pos = Vector(-2.5, 2, 1.1)
+}
+
+SWEP.DefaultOffset = {
+    ang = Angle(0, 0, 0),
+    pos = Vector(1, 5, 0.5)
 }
 
 SWEP.Animations = {
-	fire = {"shoot1", "shoot2", "shoot3"},
-	fire_last = {"shoot1", "shoot2", "shoot3"},
-	reload = "reload",
-	reload_empty = "reload",
-	draw = "draw"
+	fire = {"base_fire"},
+	reload = "base_reload",
+	reload_empty = "base_reloadempty",
+	draw = "base_draw"
 }

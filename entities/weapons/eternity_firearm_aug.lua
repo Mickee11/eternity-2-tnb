@@ -5,8 +5,7 @@ SWEP.Base 				= "eternity_firearm_base"
 SWEP.PrintName 			= "Steyr AUG"
 SWEP.Author 			= "TankNut"
 
-SWEP.ViewModel 			= Model("models/tnb/weapons/c_aug.mdl")
-SWEP.VMBodyGroups		= {[1] = 0}
+SWEP.ViewModel 			= Model("models/weapons/inss_aug/v_aug_v4.mdl")
 
 SWEP.WorldModel 		= Model("models/tnb/weapons/w_aug.mdl")
 SWEP.BodyGroups			= {[1] = 0}
@@ -28,27 +27,26 @@ SWEP.Delay 				= 0.1
 SWEP.HipCone 			= 0.02 -- Hipfire spread 
 SWEP.AimCone 			= 0.01 -- ADS spread
 
-SWEP.Recoil 			= 0.925
+SWEP.Recoil 			= 1.4
 
-SWEP.FireSound 			= Sound("eternity.weapon_aug")
-SWEP.DrySound 			= Sound("eternity.dry_rifle")
+SWEP.FireSound 			= Sound("weapons/aug/aug_fp.wav")
+SWEP.DrySound 			= Sound("weapons/aug/aug_empty.wav")
 
 SWEP.RecoilMult 		= 0
 
-SWEP.Scope 				= {
-	Enabled = true,
-	Zoom = {1.5}
-}
-
 SWEP.AimOffset = {
 	ang = Angle(0.5, 0, 0),
-	pos = Vector(-6.375, -7.5, 1.575)
+	pos = Vector(-2.75, 5, 1.575)
+}
+
+SWEP.DefaultOffset = {
+    ang = Angle(0, 0, 0),
+    pos = Vector(1, 4, 0)
 }
 
 SWEP.Animations = {
-	fire = {"shoot1", "shoot2", "shoot3"},
-	fire_last = {"shoot1", "shoot2", "shoot3"},
-	reload = "reload",
-	reload_empty = "reload",
-	draw = "draw"
+	fire = {"base_fire"},
+	reload = "base_reload",
+	reload_empty = "base_reloadempty",
+	draw = "base_draw"
 }

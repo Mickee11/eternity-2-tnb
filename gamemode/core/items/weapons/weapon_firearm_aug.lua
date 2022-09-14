@@ -4,9 +4,9 @@ ITEM.Name 				= "Steyr AUG"
 ITEM.Description 		= "An Austrian bullpup assault rifle dubbed the \"universal army rifle.\"\n\nChambered in 5.56x45mm."
 ITEM.OutlineColor		= Color(125, 159, 115)
 
-ITEM.Model 				= Model("models/tnb/weapons/w_aug.mdl")
+ITEM.Model 				= Model("models/weapons/inss_aug/w_aug.mdl")
 
-ITEM.Width 				= 3
+ITEM.Width 				= 5
 ITEM.Height 			= 1
 
 ITEM.EquipmentSlots 	= {EQUIPMENT_PRIMARY}
@@ -18,27 +18,15 @@ ITEM.SellPrice          = 20000
 ITEM.Variants			= {
 	Default = {
 		WeaponClass = "eternity_firearm_aug",
-		Model = "models/tnb/weapons/w_aug.mdl",
+		Model = "models/weapons/inss_aug/w_aug.mdl",
 		Skin = 0,
 		Bodygroups = {},
 		Title = "Default",
 		Cost = 0,
 		Refund = 2,
 		Description = "The base model of the Steyr AUG assault rifle.",
-		Width = 3,
+		Width = 5,
 		Height = 1
-	},
-	CMag = {
-		WeaponClass = "eternity_firearm_aug_cmag",
-		Model = "models/tnb/weapons/w_aug.mdl",
-		Skin = 0,
-		Bodygroups = {[1] = 1},
-		Title = "C-Mag",
-		Cost = 7,
-		Refund = 7,
-		Description = "Replaces the weapon's standard magazine with a larger C-Mag drum magazine and bipod. Good for sustained combat.",
-		Width = 3,
-		Height = 2
 	},
 }
 
