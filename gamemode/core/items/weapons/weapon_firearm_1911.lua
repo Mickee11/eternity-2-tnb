@@ -17,7 +17,7 @@ ITEM.SellPrice          = 1350
 
 ITEM.Variants			= {
 	Default = {
-		WeaponClass = "eternity_firearm_m9",
+		WeaponClass = "eternity_firearm_1911",
 		Model = "models/weapons/m1911/w_m1911.mdl",
 		Skin = 0,
 		Bodygroups = {},

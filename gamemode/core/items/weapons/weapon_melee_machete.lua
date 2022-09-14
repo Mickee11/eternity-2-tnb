@@ -4,10 +4,10 @@ ITEM.Name 				= "Machete"
 ITEM.Description 		= "A large, sharpened blade intended for clearing thick brush and woodland growth."
 ITEM.OutlineColor		= Color(194, 136, 115)
 
-ITEM.Model 				= "models/tnb/weapons/w_machete.mdl"
+ITEM.Model 				= "models/worldmodels/w_mw2019_machete_wm.mdl"
 
 ITEM.Width 				= 1
-ITEM.Height 			= 2
+ITEM.Height 			= 3
 
 ITEM.EquipmentSlots 	= {EQUIPMENT_MELEE}
 
@@ -18,7 +18,7 @@ ITEM.SellPrice          = 1000
 ITEM.Variants			= {
 	Default = {
 		WeaponClass = "eternity_melee_machete",
-		Model = "models/tnb/weapons/w_machete.mdl",
+		Model = "models/worldmodels/w_mw2019_machete_wm.mdl",
 		Skin = 0,
 		Bodygroups = {},
 		Title = "Default",
@@ -26,7 +26,7 @@ ITEM.Variants			= {
 		Refund = 1,
 		Description = "The base model of the machete.",
 		Width = 1,
-		Height = 2
+		Height = 3
 	},
 }
 

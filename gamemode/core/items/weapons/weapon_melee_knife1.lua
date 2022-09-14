@@ -1,12 +1,12 @@
 ITEM = class.Create("base_weapon")
 
-ITEM.Name 				= "Knife"
-ITEM.Description 		= "A rusted, dull combat blade. It's still quite good for cutting soft materials."
+ITEM.Name 				= "Combat Blade"
+ITEM.Description 		= "Combat blade, a bit dull and a little rusty."
 ITEM.OutlineColor		= Color(194, 136, 115)
 
-ITEM.Model 				= "models/weapons/w_knife_ct.mdl"
+ITEM.Model 				= "models/worldmodels/w_mw2019_knife_wm.mdl"
 
-ITEM.Width 				= 1
+ITEM.Width 				= 2
 ITEM.Height 			= 1
 
 ITEM.EquipmentSlots 	= {EQUIPMENT_MELEE}
@@ -17,15 +17,15 @@ ITEM.SellPrice          = 200
 
 ITEM.Variants			= {
 	Default = {
-		WeaponClass = "eternity_melee_knife",
-		Model = "models/weapons/w_knife_ct.mdl",
+		WeaponClass = "eternity_melee_knife1",
+		Model = "models/worldmodels/w_mw2019_knife_wm.mdl",
 		Skin = 0,
 		Bodygroups = {},
 		Title = "Default",
 		Cost = 0,
 		Refund = 1,
 		Description = "The base model of the knife.",
-		Width = 1,
+		Width = 2,
 		Height = 1
 	},
 }

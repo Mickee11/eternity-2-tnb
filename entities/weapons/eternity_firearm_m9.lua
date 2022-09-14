@@ -39,7 +39,7 @@ SWEP.AimOffset = {
 
 SWEP.DefaultOffset = {
     ang = Angle(0, 0, 0),
-    pos = Vector(0, 3, -2)
+    pos = Vector(0, 3, 0)
 }
 
 

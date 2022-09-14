@@ -185,10 +185,6 @@ GM.Config.Workshop.Content 	= {
     "1834280942",    -- TnB Female Head Models
     "1557688329",    -- Eternity Models
     "771487490",    -- Simfphys Base
-    "1945909088",    -- Simfphys L4D2 Vehicles
-    "2036741832",    -- "Half Life: Alyx Strider"
-    "1348270094",    -- CTVehicles Textures
-    "2017459263",    -- CT Combine Prisoner Transport
     "2024364495",    -- TnB HL2 Weapons (bennet)
     "760243326",    -- TnB HL2 Weapons (dave)
     "1318097828",    -- TnB Terminator RP Materials
@@ -202,48 +198,37 @@ GM.Config.Workshop.Content 	= {
     "837571030",    -- City 2 Content
     "760262099",    -- hl2 models
     "2434141567",  -- HLNA Content
-    "1980062764", -- rp_downpour content
     "546392647", -- media player
-    "804755013", -- t6 conten
-    "760256673", -- hl2 combine content
     "2522754671", -- hl2na clothing extras
     "2505896097", -- hlna combine stuff
-    "1406336883", -- c8 content
-    "679843970", -- i17 snow content
     "1154910118", -- terminator rp techcom models
     "760265535", -- hl2 clothing materials
     "105841291", -- more materials
     "760240464", -- tnb weapons - assault rifles and machineguns
     "760241983", -- tnb weapons - shotguns
     "760242725", -- tnb weapons - smgs, shotguns, pistols, sniper rifles, melee
-    "2043900984", -- infestation control props
     "1154906357", -- terminator rp weapon models
     "2196585204", -- tnb - extra weapons
-    "1532130244", -- d47 v2 content
     "646312597", -- tnb map content and props
     "760239128", -- tnb map textures
-    "1415538438", -- simfphys float base
-    "1717731472", -- simfphys bmw r75
     "2387019275", -- tnb expanded models
     "2340192251", -- modular sewer system
-    "1100462179", -- c24 prop1
-    "1109391899", -- c24 prop2
     "2522754671", -- Revised Old Clothing
-    "2556464663", -- skyrim abusing status to fix his single model
-    "1579721384", -- tanknuts umbra overwatch
-    "496951798", -- resistance buildings
     "940903329", -- highway improb content
-    "2061960116", -- alyx vault model
-    "2481545240", -- shepherd model
-    "1580908246", -- phl2 xen models
-    "1508411642", -- flood models
-    "831680603", -- simphys armed vehicles
-    "1586745401", -- simphys tanks
-    "04990330", -- wac
-    "108907015", -- wac community 1
-    "1665159137", -- jeep
     "2611791235", -- tnb head models revised
+    "2617473738", -- tnb clothing models revised
+    "2617483552", -- tnb model materials
     "1639165791", -- warfare items
+    "1206707188", -- gta props part 1
+    "1206713009", -- gta props part 2
+    "2233731395", -- scene builder
+    "2848098852", -- tnb melee pack
+    "2848025953", -- tnb rifles pack
+    "2848021972", -- tnb pistols pack
+    "2848014425", -- tnb shotguns pack
+    "2848012059", -- tnb weapon base
+    "2003814397", -- american truck simulator cars
+    "1945909088", -- l4d vehicles
 
 }
 GM.Config.Workshop.Maps = {}

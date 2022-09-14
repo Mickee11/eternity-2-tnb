@@ -4,9 +4,9 @@ DEFINE_BASECLASS("eternity_melee_base")
 SWEP.Base 				= "eternity_melee_base"
 
 SWEP.PrintName 			= "Knife"
-SWEP.Author 			= "Drewerth"
+SWEP.Author 			= "Mickee"
 
-SWEP.ViewModel 			= Model("models/weapons/cstrike/c_knife_t.mdl")
+SWEP.ViewModel 			= Model("models/viewmodels/c_mw2019_knife.mdl")
 SWEP.WorldModel 		= Model("models/weapons/w_knife_ct.mdl")
 
 SWEP.HoldType 			= "knife"
@@ -16,8 +16,8 @@ SWEP.Delay 				= 0.6
 
 SWEP.Animations = {
 	idle = "idle",
-	hit = {"midslash1", "midslash2"},
-	miss = {"stab_miss"}
+	hit = {"midslash1"},
+	miss = {"midslash1"}
 }
 
 function SWEP:Deploy()

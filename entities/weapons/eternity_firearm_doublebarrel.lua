@@ -41,7 +41,6 @@ SWEP.AimOffset = {
 SWEP.Animations = {
 	draw = "base_draw",
 	fire = {"base_fire"},
-	reload = "base_reload",
 	reload_empty = "base_reloadempty",
 	reloadfinish = "idle"
 }

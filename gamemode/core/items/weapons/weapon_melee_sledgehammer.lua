@@ -1,10 +1,10 @@
 ITEM = class.Create("base_weapon")
 
-ITEM.Name 				= "Shovel"
-ITEM.Description 		= "A metal-rusted and well-worn wooden tool. It's good for clearing dirt and debris."
+ITEM.Name 				= "Sledgehammer"
+ITEM.Description 		= "Aged, rusted, and without it's paint. Yet it still gets the job done."
 ITEM.OutlineColor		= Color(194, 136, 115)
 
-ITEM.Model 				= "models/worldmodels/w_mw2019_shovel.mdl"
+ITEM.Model 				= "models/worldmodels/w_mw2019_sledgehammer_wm.mdl"
 
 ITEM.Width 				= 1
 ITEM.Height 			= 5
@@ -17,14 +17,14 @@ ITEM.SellPrice          = 200
 
 ITEM.Variants			= {
 	Default = {
-		WeaponClass = "eternity_melee_shovel",
-		Model = "models/worldmodels/w_mw2019_shovel.mdl",
+		WeaponClass = "eternity_melee_sledgehammer",
+		Model = "models/worldmodels/w_mw2019_sledgehammer_wm.mdl",
 		Skin = 0,
 		Bodygroups = {},
 		Title = "Default",
 		Cost = 0,
 		Refund = 1,
-		Description = "The base model of the shovel.",
+		Description = "The base model of the sledgehammer.",
 		Width = 1,
 		Height = 5
 	},
