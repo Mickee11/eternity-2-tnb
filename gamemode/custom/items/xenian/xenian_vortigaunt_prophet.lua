@@ -1,4 +1,4 @@
-ITEM = class.Create("base_xenian")
+ITEM = class.Create("base_monster")
 
 ITEM.Name 				= "Vortigaunt Prophet"
 ITEM.Description 		= "Something about Post-HL2 and split timelines."

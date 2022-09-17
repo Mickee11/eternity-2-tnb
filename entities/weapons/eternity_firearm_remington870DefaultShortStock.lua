@@ -6,6 +6,7 @@ SWEP.PrintName 			= "Remington 870"
 SWEP.Author 			= "TankNut"
 
 SWEP.ViewModel 			= Model("models/weapons/smc/r870/c_remington_m870.mdl")
+SWEP.VMBodyGroups		= {[1] = 1}
 
 SWEP.WorldModel 		= Model("models/tnb/weapons/w_mossberg.mdl")
 
@@ -28,7 +29,7 @@ SWEP.Delay 				= 1
 SWEP.HipCone 			= 0.05 -- Hipfire spread 
 SWEP.AimCone 			= 0.025 -- ADS spread
 
-SWEP.Recoil 			= 1.8
+SWEP.Recoil 			= 2
 
 SWEP.FireSound 			= Sound("weapons/remington_870/870_shoot_1.wav")
 SWEP.DrySound 			= Sound("weapons/remington_870/870_empty.wav")

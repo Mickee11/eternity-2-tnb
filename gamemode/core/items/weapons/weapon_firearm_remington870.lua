@@ -1,13 +1,13 @@
 ITEM = class.Create("base_weapon")
 
 ITEM.Name 				= "Remington 870"
-ITEM.Description 		= "Placeholder."
+ITEM.Description 		= "All American boomstick.\n\nTakes 12-Gauge."
 ITEM.OutlineColor		= Color(125, 159, 115)
 
 ITEM.Model 				= Model("models/weapons/smc/r870/w_remington_m870.mdl")
 
-ITEM.Width 				= 3
-ITEM.Height 			= 1
+ITEM.Width 				= 1
+ITEM.Height 			= 6
 
 ITEM.EquipmentSlots 	= {EQUIPMENT_PRIMARY}
 
@@ -25,9 +25,21 @@ ITEM.Variants			= {
 		Cost = 0,
 		Refund = 2,
 		Description = "The base model of the Remington 870.",
-		Width = 6,
-		Height = 1
+		Width = 1,
+		Height = 5
 	},
+	DefaultShortStock = {
+		WeaponClass = "eternity_firearm_remington870DefaultShortStock",
+		Model = "models/tnb/weapons/w_mossberg.mdl",
+		Skin = 0,
+		Bodygroups = {},
+		Title = "Default No Stock",
+		Cost = 0,
+		Refund = 2,
+		Description = "Remington 870 with no stock.",
+		Width = 1,
+		Height = 5
+	}
 }
 
 ITEM.AmmoTypes 			= {

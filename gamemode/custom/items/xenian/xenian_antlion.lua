@@ -1,4 +1,4 @@
-ITEM = class.Create("base_xenian")
+ITEM = class.Create("base_monster")
 
 ITEM.Name 				= "Antlion"
 ITEM.Description 		= "The creature responsible for taking Lazlo from us long before his time was up."

@@ -1,4 +1,4 @@
-ITEM = class.Create("base_xenian")
+ITEM = class.Create("base_monster")
 
 ITEM.Name 				= "Houndeye"
 ITEM.Description 		= "The real good boy. Bark bark."

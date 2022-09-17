@@ -1,4 +1,4 @@
-ITEM = class.Create("base_xenian")
+ITEM = class.Create("base_monster")
 
 ITEM.Name 				= "Kingpin"
 ITEM.Description 		= "At least it's not Mr. Friendly, no?"

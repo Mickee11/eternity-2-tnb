@@ -1,4 +1,4 @@
-ITEM = class.Create("base_xenian")
+ITEM = class.Create("base_monster")
 
 ITEM.Name 				= "Antlion Matriarch"
 ITEM.Description 		= "Big mama. You should run, probably."

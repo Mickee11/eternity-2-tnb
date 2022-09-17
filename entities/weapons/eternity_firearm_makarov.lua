@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base 				= "eternity_firearm_base"
 
 SWEP.PrintName 			= "Makarov"
-SWEP.Author 			= "TankNut"
+SWEP.Author 			= "Mickee"
 
 SWEP.ViewModel 			= Model("models/weapons/tfa_at_pm_ins_s/v_makarov.mdl")
 
@@ -39,7 +39,7 @@ SWEP.AimOffset = {
 
 SWEP.DefaultOffset = {
     ang = Angle(0, 0, 0),
-    pos = Vector(0, 3, -2)
+    pos = Vector(0, 3, 0)
 }
 
 

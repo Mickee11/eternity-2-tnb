@@ -1,4 +1,4 @@
-ITEM = class.Create("base_xenian")
+ITEM = class.Create("base_monster")
 
 ITEM.Name 				= "Gonarch"
 ITEM.Description 		= "The matriarch of the headcrab family, also known as the big momma."

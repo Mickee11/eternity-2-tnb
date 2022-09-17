@@ -1,4 +1,4 @@
-ITEM = class.Create("base_xenian")
+ITEM = class.Create("base_monster")
 
 ITEM.Name 				= "Antlion Worker"
 ITEM.Description 		= "Spits some green acid in the game, but not here. We're lazy here."

@@ -1,4 +1,4 @@
-ITEM = class.Create("base_xenian")
+ITEM = class.Create("base_monster")
 
 ITEM.Name 				= "Alien Controller"
 ITEM.Description 		= "Floating, floating. Not much else to say or do."

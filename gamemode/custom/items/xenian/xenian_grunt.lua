@@ -1,4 +1,4 @@
-ITEM = class.Create("base_xenian")
+ITEM = class.Create("base_monster")
 
 ITEM.Name 				= "Alien Grunt"
 ITEM.Description 		= "At least the gun chose his hand, not Freeman's."

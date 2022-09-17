@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base 				= "eternity_firearm_base"
 
 SWEP.PrintName 			= "M40A1"
-SWEP.Author 			= "TankNut"
+SWEP.Author 			= "Mickee"
 
 SWEP.ViewModel 			= Model("models/weapons/v_nam_m40.mdl")
 SWEP.WorldModel 		= Model("models/tnb/weapons/w_mosin.mdl")
@@ -41,18 +41,19 @@ SWEP.AimOffset = {
 
 SWEP.DefaultOffset = {
     ang = Angle(0, 0, 0),
-    pos = Vector(0, 3, -2)
+    pos = Vector(0, 3, -1)
 }
 
 SWEP.Animations = {
-	fire = "base_fire_start",
-	pump = {"iron_fire_end"},
+	draw = "base_draw",
+	fire = "iron_fire_start",
+	pump = "iron_fire_end",
 	reload = "base_reload_start",
 	reloadinsert = "base_reload_insert",
 	reloadfinish = "base_reload_end",
-	idle = "idle",
-	draw = "base_draw"
+	idle = "idle"
 }
+
 
 function SWEP:FireAnimationEvent(pos, ang, event, options)
 	if event == 5001 then return true end

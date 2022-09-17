@@ -1,4 +1,4 @@
-ITEM = class.Create("base_xenian")
+ITEM = class.Create("base_monster")
 
 ITEM.Name 				= "Fast Zombie"
 ITEM.Description 		= "Rambling and grunting for all eternity, but quickly and such."

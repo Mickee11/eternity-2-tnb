@@ -47,7 +47,7 @@ SWEP.Animations = {
 	fire = {"base_fire", "base_fire2", "base_fire3"},
 	fire_last = {"base_firelast"},
 	reload = "base_reload",
-	reload_empty = "base_reloadempty",
+	reload_empty = "base_reload_empty",
 	draw = "base_draw"
 }
 

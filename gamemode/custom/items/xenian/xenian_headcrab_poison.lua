@@ -1,4 +1,4 @@
-ITEM = class.Create("base_xenian")
+ITEM = class.Create("base_monster")
 
 ITEM.Name 				= "Poison Headcrab"
 ITEM.Description 		= "A toxic bugger, that's for sure."

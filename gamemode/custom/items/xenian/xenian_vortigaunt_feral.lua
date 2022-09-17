@@ -1,4 +1,4 @@
-ITEM = class.Create("base_xenian")
+ITEM = class.Create("base_monster")
 
 ITEM.Name 				= "Feral Vortigaunt"
 ITEM.Description 		= "Much less friendly that your standard Vortigaunt."
