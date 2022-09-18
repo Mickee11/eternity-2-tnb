@@ -28,18 +28,6 @@ ITEM.Variants			= {
 		Width = 1,
 		Height = 5
 	},
-	DefaultShortStock = {
-		WeaponClass = "eternity_firearm_remington870DefaultShortStock",
-		Model = "models/tnb/weapons/w_mossberg.mdl",
-		Skin = 0,
-		Bodygroups = {},
-		Title = "Default No Stock",
-		Cost = 0,
-		Refund = 2,
-		Description = "Remington 870 with no stock.",
-		Width = 1,
-		Height = 5
-	}
 }
 
 ITEM.AmmoTypes 			= {
