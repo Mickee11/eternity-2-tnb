@@ -213,7 +213,7 @@ if SERVER then
 
 			coroutine.wrap(hooks.Callback)(ply, validated)
 		end
-	end)
+	end
 
 	hook.Add("Think", "netstream", function()
 		for k, v in pairs(Queue) do

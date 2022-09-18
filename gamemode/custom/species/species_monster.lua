@@ -1,7 +1,7 @@
 local CLASS = class.Create("base_species")
 
-CLASS.Name 					= "Xenian Event Character"
-CLASS.Team 					= TEAM_XENIANS
+CLASS.Name 					= "Monster Event Character"
+CLASS.Team 					= TEAM_MONSTER
 
 CLASS.BaseHealth 			= 100
 
@@ -29,7 +29,7 @@ CLASS.AllowStash 			= false
 CLASS.NoFallDamage 			= true
 CLASS.GasImmune 			= true
 
-CLASS.EquipmentSlots 		= {EQUIPMENT_XENIAN}
+CLASS.EquipmentSlots 		= {EQUIPMENT_MONSTER}
 
 CLASS.MoveSpeed 			= {
 	Walk = 50,
@@ -42,7 +42,7 @@ CLASS.SpeciesDefaults		= {
 	CombinePermissions = {},
 	CombineLevel = COMBINE_LEVEL_CITIZEN,
 	VisibleRPName = nil,
-	ForceTeam = TEAM_XENIANS,
+	ForceTeam = TEAM_MONSTER,
 	DisallowTeamItems = true,
 	UseTeamSpawn = true,
 }
@@ -50,7 +50,7 @@ CLASS.SpeciesDefaults		= {
 CLASS.SpeciesStates			= { }
 
 function CLASS:GetVoicelines(ply)
-	local item = ply:GetEquipment(EQUIPMENT_XENIAN)
+	local item = ply:GetEquipment(EQUIPMENT_MONSTER)
 
 	if item and item.Voicelines then
 		return item.Voicelines
@@ -64,7 +64,7 @@ function CLASS:Loadout(ply)
 		ply:Give(v)
 	end
 
-	local item = ply:GetEquipment(EQUIPMENT_XENIAN)
+	local item = ply:GetEquipment(EQUIPMENT_MONSTER)
 
 	if item and item.Loadout then
 		item:Loadout(ply)
@@ -73,7 +73,7 @@ end
 
 if SERVER then
 	function CLASS:OverwriteFootsteps(ply, step, walking)
-		local item = ply:GetEquipment(EQUIPMENT_XENIAN)
+		local item = ply:GetEquipment(EQUIPMENT_MONSTER)
 
 		if not item then
 			return "NPC_Headcrab.Footstep", 0.05
@@ -86,7 +86,7 @@ if SERVER then
 		ply:SetActiveLanguage(LANG_ENG)
 		ply:GiveLanguage(LANG_XENI)
 
-		ply:SetRPName("Xenian Event Character")
+		ply:SetRPName("Monster Event Character")
 	end
 
 	function CLASS:GetSpeeds(ply)

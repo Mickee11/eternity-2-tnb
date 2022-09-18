@@ -8,7 +8,7 @@ SPECIES_CMB_SOLDIER  = 3
 SPECIES_CMB_TYRANT	 = 4
 SPECIES_CMB_HUNTER	 = 5
 SPECIES_CMB_SCANNER  = 6
-SPECIES_MONSTERS     = 7
+SPECIES_MONSTER      = 7
 SPECIES_RACEX        = 8
 
 STOREBLOCK_NONE		 = 0
@@ -108,7 +108,7 @@ AddTeam(14, "LABORADMIN",     "Labor Administration",   					        Color(72,  
 AddTeam(7,  "INSPECTORS",     "Beneficiary Intelligence and Observation",			Color(169, 169, 169), true,  9)
 AddTeam(8,  "OVERWATCH",      "Overwatch", 									        Color(204, 112, 0),   false,  10)
 AddTeam(9,  "AIRWATCH",       "Airwatch",									        Color(219, 112, 147), false,  11)
-AddTeam(10, "MONSTERS",        "Monsters", 									        Color(153, 187, 0),   false,  13)
+AddTeam(10, "MONSTER",        "Monsters", 									        Color(153, 187, 0),   false,  13)
 AddTeam(11, "RACEX",          "Race-X", 									        Color(115, 30,  215), true,  14)
 AddTeam(12, "OUTERRES",       "Outer Residents", 							        Color(0,   100, 0),   false, 2)
 AddTeam(13, "SCIENTIST",      "Combine Scientists", 						        Color(140, 110, 150), true,  12)
@@ -543,7 +543,7 @@ RELATIONSHIP_METROPOLICE = {
 	[TEAM_INSPECTORS] = D_LI,
 	[TEAM_OVERWATCH] = D_LI,
 	[TEAM_AIRWATCH] = D_LI,
-	[TEAM_MONSTERS] = D_FR,
+	[TEAM_MONSTER] = D_FR,
 	[TEAM_RACEX] = D_FR,
 }
 
@@ -560,7 +560,7 @@ RELATIONSHIP_COMBINESOLDIER = {
 	[TEAM_INSPECTORS] = D_LI,
 	[TEAM_OVERWATCH] = D_LI,
 	[TEAM_AIRWATCH] = D_LI,
-	[TEAM_MONSTERS] = D_HT,
+	[TEAM_MONSTER] = D_HT,
 	[TEAM_RACEX] = D_HT,
 }
 
@@ -577,7 +577,7 @@ RELATIONSHIP_COMBINETURRET = {
 	[TEAM_INSPECTORS] = D_LI,
 	[TEAM_OVERWATCH] = D_LI,
 	[TEAM_AIRWATCH] = D_LI,
-	[TEAM_MONSTERS] = D_HT,
+	[TEAM_MONSTER] = D_HT,
 	[TEAM_RACEX] = D_HT,
 }
 
@@ -594,7 +594,7 @@ RELATIONSHIP_COMBINESYNTH = {
 	[TEAM_INSPECTORS] = D_LI,
 	[TEAM_OVERWATCH] = D_LI,
 	[TEAM_AIRWATCH] = D_LI,
-	[TEAM_MONSTERS] = D_HT,
+	[TEAM_MONSTER] = D_HT,
 	[TEAM_RACEX] = D_HT,
 }
 
@@ -611,7 +611,7 @@ RELATIONSHIP_XENIAN = {
 	[TEAM_INSPECTORS] = D_HT,
 	[TEAM_OVERWATCH] = D_HT,
 	[TEAM_AIRWATCH] = D_HT,
-	[TEAM_MONSTERS] = D_LI,
+	[TEAM_MONSTER] = D_LI,
 	[TEAM_RACEX] = D_LI,
 }
 
@@ -628,7 +628,7 @@ RELATIONSHIP_RESISTANCE = {
 	[TEAM_INSPECTORS] = D_HT,
 	[TEAM_OVERWATCH] = D_HT,
 	[TEAM_AIRWATCH] = D_HT,
-	[TEAM_MONSTERS] = D_HT,
+	[TEAM_MONSTER] = D_HT,
 	[TEAM_RACEX] = D_HT,
 }
 

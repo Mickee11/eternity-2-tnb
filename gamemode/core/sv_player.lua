@@ -269,7 +269,7 @@ function meta:HandleMoveSpeed()
 	local consciousness = self:Consciousness() / 100
 	local walk, run, jump, crouch = species:GetSpeeds(self)
 
-	local item = self:GetEquipment(EQUIPMENT_XENIAN)
+	local item = self:GetEquipment(EQUIPMENT_MONSTER)
 
 	if item and item.GetSpeeds then
 		walk, run, jump, crouch = item:GetSpeeds(self)

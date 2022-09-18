@@ -2,11 +2,11 @@ ITEM = class.Create("base_item")
 
 ITEM.OutlineColor 		= Color(200, 230, 60)
 
-ITEM.EquipmentSlots 	= {EQUIPMENT_MONSTERS}
+ITEM.EquipmentSlots 	= {EQUIPMENT_MONSTER}
 
 ITEM.ItemGroup 			= "Clothing"
 
-ITEM.Species 			= {SPECIES_MONSTERS}
+ITEM.Species 			= {SPECIES_MONSTER}
 
 ITEM.CustomDescribe		= false
 

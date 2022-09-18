@@ -13,8 +13,8 @@ function GM:EternityPostLoadItems()
     -- self:RegisterItem(includes.CurrentFolder(1) .. "items/base_ration.lua")
     -- self:RegisterItemFolder("items/rations")
 
-    self:RegisterItem(includes.CurrentFolder(1) .. "items/base_xenian.lua")
-    self:RegisterItemFolder("items/xenian")
+    self:RegisterItem(includes.CurrentFolder(1) .. "items/base_monster.lua")
+    self:RegisterItemFolder("items/monster")
 
     -- self:RegisterItem(includes.CurrentFolder(1) .. "items/base_vortigaunt.lua")
     -- self:RegisterItemFolder("items/vortigaunt")
