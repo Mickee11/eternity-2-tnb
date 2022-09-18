@@ -229,6 +229,11 @@ GM.Config.Workshop.Content 	= {
     "2848012059", -- tnb weapon base
     "2003814397", -- american truck simulator cars
     "1945909088", -- l4d vehicles
+    "2447774443", -- stormfox 2
+    "2864351128", -- the mist models
+    "2600347219", -- fallout snpcs
+    "2600378863", -- fallout snpcs models
+    "131759821", -- vj base
 
 }
 GM.Config.Workshop.Maps = {}

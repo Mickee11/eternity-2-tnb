@@ -1,7 +1,7 @@
 ITEM = class.Create("base_monster")
 
-ITEM.Name 				= "Antlion"
-ITEM.Description 		= "The creature responsible for taking Lazlo from us long before his time was up."
+ITEM.Name 				= "Giant Roach"
+ITEM.Description 		= "Oversized insect."
 
 ITEM.Model 				= Model("models/gibs/antlion_gib_large_2.mdl")
 
@@ -54,14 +54,13 @@ if SERVER then
 	function ITEM:PostModelData(ply, data)
 		return {
 			_base = {
-				Model = Model("models/antlion.mdl"),
-				Skin = math.random(0, 3)
+				Model = Model("models/fallout/radroach.mdl")
 			}
 		}
 	end
 
 	function ITEM:OverwriteFootsteps(ply, step, walking)
-		return "NPC_Antlion.Footstep"
+		return "vj_fallout/radroach/foot/roach_foot_l01.mp3"
 	end
 end
 
