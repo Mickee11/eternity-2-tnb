@@ -1,7 +1,7 @@
 ITEM = class.Create("base_monster")
 
-ITEM.Name 				= "Antlion Matriarch"
-ITEM.Description 		= "Big mama. You should run, probably."
+ITEM.Name 				= "Giant Crab"
+ITEM.Description 		= "An oversized crab-like creature."
 
 ITEM.Model 				= Model("models/weapons/w_bugbait.mdl")
 
@@ -23,14 +23,13 @@ if SERVER then
 	function ITEM:PostModelData(ply, data)
 		return {
 			_base = {
-				Model = Model("models/antlion_guard.mdl"),
-				Skin = 1
+				Model = Model("models/cpthazama/fallout/mirelurk.mdl")
 			}
 		}
 	end
 
 	function ITEM:OverwriteFootsteps(ply, step, walking)
-		return "NPC_AntlionGuard.StepHeavy"
+		return "vj_fallout/mirelurk/foot/mirelurk_foot_l01.mp3"
 	end
 end
 

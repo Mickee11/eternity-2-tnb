@@ -284,7 +284,6 @@ GM:AddAnimTable("models/zombie/zombie_soldier.mdl", {
 
 GM:AddAnimTable({
 	"models/fallout/radroach.mdl",
-	"models/antlion_worker.mdl"
 }, {
 	[ACT_MP_STAND_IDLE] 				= "mtidle",
 	[ACT_MP_WALK] 						= "mtforward",
@@ -301,14 +300,79 @@ GM:AddAnimTable({
 	[ACT_LAND] 							= ACT_IDLE
 })
 
-GM:AddAnimTable("models/antlion_guard.mdl", {
-	[ACT_MP_STAND_IDLE] 				= ACT_IDLE,
-	[ACT_MP_WALK] 						= ACT_WALK,
-	[ACT_MP_RUN] 						= "charge_loop",
+GM:AddAnimTable("models/cpthazama/fallout/mirelurk.mdl", {
+	[ACT_MP_STAND_IDLE] 				= "mtidle",
+	[ACT_MP_WALK] 						= "walk",
+	[ACT_MP_RUN] 						= "mtfastforward",
 	[ACT_MP_CROUCH_IDLE] 				= ACT_IDLE,
 	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
-	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= ACT_IDLE,
-	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= ACT_IDLE,
+	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= "h2hattackleft",
+	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= "h2hattackright",
+	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
+	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
+	[ACT_MP_JUMP] 						= ACT_JUMP,
+	[ACT_MP_SWIM_IDLE] 					= ACT_IDLE,
+	[ACT_MP_SWIM] 						= ACT_IDLE,
+	[ACT_LAND] 							= ACT_IDLE
+})
+
+GM:AddAnimTable("models/fallout/centaur_thing.mdl", {
+	[ACT_MP_STAND_IDLE] 				= "idle",
+	[ACT_MP_WALK] 						= "walk",
+	[ACT_MP_RUN] 						= "mtfastforwad",
+	[ACT_MP_CROUCH_IDLE] 				= ACT_IDLE,
+	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
+	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= "h2hattackleft",
+	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= "h2hattackright",
+	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
+	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
+	[ACT_MP_JUMP] 						= ACT_JUMP,
+	[ACT_MP_SWIM_IDLE] 					= "swimtidle",
+	[ACT_MP_SWIM] 						= "swimtforward",
+	[ACT_LAND] 							= ACT_IDLE
+})
+
+GM:AddAnimTable("models/fallout/deathclaw_baby.mdl", {
+	[ACT_MP_STAND_IDLE] 				= "h2haim",
+	[ACT_MP_WALK] 						= "walk",
+	[ACT_MP_RUN] 						= "run",
+	[ACT_MP_CROUCH_IDLE] 				= ACT_IDLE,
+	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
+	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= "h2hattackleft_a",
+	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= "h2hattackright_b",
+	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
+	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
+	[ACT_MP_JUMP] 						= ACT_JUMP,
+	[ACT_MP_SWIM_IDLE] 					= ACT_IDLE,
+	[ACT_MP_SWIM] 						= ACT_IDLE,
+	[ACT_LAND] 							= ACT_IDLE
+})
+
+GM:AddAnimTable("models/fallout/cazadore.mdl", {
+	[ACT_MP_STAND_IDLE] 				= "h2idle",
+	[ACT_MP_WALK] 						= "mtforward",
+	[ACT_MP_RUN] 						= "mtfastforwad",
+	[ACT_MP_CROUCH_IDLE] 				= ACT_IDLE,
+	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
+	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= "h2hattackleft",
+	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= "h2hattackright",
+	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
+	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
+	[ACT_MP_JUMP] 						= "h2hflyhigh",
+	[ACT_MP_SWIM_IDLE] 					= ACT_IDLE,
+	[ACT_MP_SWIM] 						= ACT_IDLE,
+	[ACT_LAND] 							= ACT_IDLE
+})
+
+
+GM:AddAnimTable("models/fallout/giantant.mdl", {
+	[ACT_MP_STAND_IDLE] 				= "mtidle",
+	[ACT_MP_WALK] 						= "walk",
+	[ACT_MP_RUN] 						= "mtfastforward",
+	[ACT_MP_CROUCH_IDLE] 				= ACT_IDLE,
+	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
+	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= "h2hattackleft",
+	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= "h2hattackright",
 	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
 	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
 	[ACT_MP_JUMP] 						= ACT_JUMP,
