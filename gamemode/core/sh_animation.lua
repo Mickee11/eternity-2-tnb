@@ -316,7 +316,7 @@ GM:AddAnimTable("models/fallout/blowfly.mdl", {
 	[ACT_LAND] 							= ACT_IDLE
 })
 
-GM:AddAnimTable("models/fallout/blowfly.mdl", {
+GM:AddAnimTable("models/fallout/nightstalker.mdl", {
 	[ACT_MP_STAND_IDLE] 				= "mtidle",
 	[ACT_MP_WALK] 						= "mtforward",
 	[ACT_MP_RUN] 						= "mtfastforward",
