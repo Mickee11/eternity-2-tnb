@@ -441,7 +441,7 @@ function GM:LoadPermaProps()
 	end
 
 	local limit = GAMEMODE:GetConfig("PermaPropLimit")
-	permaprops_in_session = 3000 -- referenced in rpa_togglesaved
+	permaprops_in_session = 0 -- referenced in rpa_togglesaved
 	for _, data in next, entities do
 		if !PERMAPROP_CLASSES[data.Class] then continue end
 
