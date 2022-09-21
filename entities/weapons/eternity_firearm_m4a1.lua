@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base 				= "eternity_firearm_base"
 
 SWEP.PrintName 			= "M4A1"
-SWEP.Author 			= "TankNut"
+SWEP.Author 			= "Mickee"
 
 SWEP.ViewModel 			= Model("models/weapons/inss_m4a1/v_m4a1_v9.mdl")
 
@@ -47,6 +47,5 @@ SWEP.DefaultOffset = {
 SWEP.Animations = {
 	fire = {"base_fire"},
 	reload = "base_reload",
-	reload_empty = "base_reloadempty",
 	draw = "base_draw"
 }

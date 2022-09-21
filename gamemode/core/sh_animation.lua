@@ -185,102 +185,6 @@ GM:AddAnimTable("models/headcrabblack.mdl", {
 	[ACT_LAND] 							= "idle01fast"
 })
 
-GM:AddAnimTable({
-	"models/zombie/classic.mdl",
-	"models/zombie/classic_torso.mdl"
-}, {
-	[ACT_MP_STAND_IDLE] 				= ACT_IDLE,
-	[ACT_MP_WALK] 						= ACT_WALK,
-	[ACT_MP_RUN] 						= ACT_WALK,
-	[ACT_MP_CROUCH_IDLE] 				= ACT_IDLE,
-	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
-	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= ACT_IDLE,
-	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= ACT_IDLE,
-	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
-	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
-	[ACT_MP_JUMP] 						= ACT_WALK,
-	[ACT_MP_SWIM_IDLE] 					= ACT_IDLE,
-	[ACT_MP_SWIM] 						= ACT_IDLE,
-	[ACT_LAND] 							= ACT_IDLE
-})
-
-GM:AddAnimTable("models/Zombie/Fast.mdl", {
-	[ACT_MP_STAND_IDLE] 				= ACT_IDLE,
-	[ACT_MP_WALK] 						= ACT_WALK,
-	[ACT_MP_RUN] 						= ACT_RUN,
-	[ACT_MP_CROUCH_IDLE] 				= ACT_IDLE,
-	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
-	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= ACT_IDLE,
-	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= ACT_IDLE,
-	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
-	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
-	[ACT_MP_JUMP] 						= "leapstrike",
-	[ACT_MP_SWIM_IDLE] 					= "leapstrike",
-	[ACT_MP_SWIM] 						= "leapstrike",
-	[ACT_LAND] 							= ACT_IDLE
-})
-
-GM:AddAnimTable("models/zombie/fast_torso.mdl", {
-	[ACT_MP_STAND_IDLE] 				= ACT_IDLE,
-	[ACT_MP_WALK] 						= ACT_WALK,
-	[ACT_MP_RUN] 						= ACT_WALK,
-	[ACT_MP_CROUCH_IDLE] 				= ACT_IDLE,
-	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
-	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= ACT_IDLE,
-	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= ACT_IDLE,
-	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
-	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
-	[ACT_MP_JUMP] 						= "leapstrike",
-	[ACT_MP_SWIM_IDLE] 					= "leapstrike",
-	[ACT_MP_SWIM] 						= "leapstrike",
-	[ACT_LAND] 							= ACT_IDLE
-})
-
-GM:AddAnimTable("models/Zombie/Poison.mdl", {
-	[ACT_MP_STAND_IDLE] 				= ACT_IDLE,
-	[ACT_MP_WALK] 						= ACT_WALK,
-	[ACT_MP_RUN] 						= "run",
-	[ACT_MP_CROUCH_IDLE] 				= ACT_IDLE,
-	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
-	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= ACT_IDLE,
-	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= ACT_IDLE,
-	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
-	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
-	[ACT_MP_JUMP] 						= ACT_IDLE,
-	[ACT_MP_SWIM_IDLE] 					= ACT_IDLE,
-	[ACT_MP_SWIM] 						= ACT_IDLE,
-	[ACT_LAND] 							= ACT_IDLE
-})
-
-GM:AddAnimTable("models/zombie/zombie_soldier.mdl", {
-	[ACT_MP_STAND_IDLE] 				= "idle01",
-	[ACT_MP_WALK] 						= "walk_all",
-	[ACT_MP_RUN] 						= "run_all",
-	[ACT_MP_CROUCH_IDLE] 				= "idle01",
-	[ACT_MP_CROUCHWALK] 				= "walk_all",
-	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= ACT_IDLE,
-	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= ACT_IDLE,
-	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
-	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
-	[ACT_MP_JUMP] 						= "run_all",
-	[ACT_MP_SWIM_IDLE] 					= "run_all",
-	[ACT_MP_SWIM] 						= "run_all",
-	[ACT_LAND] 							= ACT_IDLE
-}, {
-	[ACT_MP_STAND_IDLE] 				= "idle_grenade",
-	[ACT_MP_WALK] 						= "walk_all_grenade",
-	[ACT_MP_RUN] 						= "run_all_grenade",
-	[ACT_MP_CROUCH_IDLE] 				= "idle_grenade",
-	[ACT_MP_CROUCHWALK] 				= "walk_all_grenade",
-	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= ACT_IDLE,
-	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= ACT_IDLE,
-	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
-	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
-	[ACT_MP_JUMP] 						= "run_all_grenade",
-	[ACT_MP_SWIM_IDLE] 					= "run_all_grenade",
-	[ACT_MP_SWIM] 						= "run_all_grenade",
-	[ACT_LAND] 							= ACT_IDLE
-})
 
 GM:AddAnimTable({
 	"models/fallout/radroach.mdl",
@@ -316,10 +220,42 @@ GM:AddAnimTable("models/cpthazama/fallout/mirelurk.mdl", {
 	[ACT_LAND] 							= ACT_IDLE
 })
 
+GM:AddAnimTable("models/fallout/giantantqueen.mdl", {
+	[ACT_MP_STAND_IDLE] 				= "mtidle",
+	[ACT_MP_WALK] 						= "mtforward",
+	[ACT_MP_RUN] 						= "mtfastforward",
+	[ACT_MP_CROUCH_IDLE] 				= ACT_IDLE,
+	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
+	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= "h2lattackright",
+	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= "h2hattackpower",
+	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
+	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
+	[ACT_MP_JUMP] 						= ACT_JUMP,
+	[ACT_MP_SWIM_IDLE] 					= ACT_IDLE,
+	[ACT_MP_SWIM] 						= ACT_IDLE,
+	[ACT_LAND] 							= ACT_IDLE
+})
+
+GM:AddAnimTable("models/fallout/mantis.mdl", {
+	[ACT_MP_STAND_IDLE] 				= "mtidle",
+	[ACT_MP_WALK] 						= "mtforward",
+	[ACT_MP_RUN] 						= "mtfastforward",
+	[ACT_MP_CROUCH_IDLE] 				= ACT_IDLE,
+	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
+	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= "h2hattackleft",
+	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= "h2hattackright",
+	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
+	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
+	[ACT_MP_JUMP] 						= ACT_JUMP,
+	[ACT_MP_SWIM_IDLE] 					= ACT_IDLE,
+	[ACT_MP_SWIM] 						= ACT_IDLE,
+	[ACT_LAND] 							= ACT_IDLE
+})
+
 GM:AddAnimTable("models/fallout/centaur_thing.mdl", {
 	[ACT_MP_STAND_IDLE] 				= "idle",
 	[ACT_MP_WALK] 						= "walk",
-	[ACT_MP_RUN] 						= "mtfastforwad",
+	[ACT_MP_RUN] 						= "mtfastforward",
 	[ACT_MP_CROUCH_IDLE] 				= ACT_IDLE,
 	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
 	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= "h2hattackleft",
@@ -364,6 +300,38 @@ GM:AddAnimTable("models/fallout/cazadore.mdl", {
 	[ACT_LAND] 							= ACT_IDLE
 })
 
+GM:AddAnimTable("models/fallout/blowfly.mdl", {
+	[ACT_MP_STAND_IDLE] 				= "mtidle",
+	[ACT_MP_WALK] 						= "walk",
+	[ACT_MP_RUN] 						= "mtfastforward",
+	[ACT_MP_CROUCH_IDLE] 				= ACT_IDLE,
+	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
+	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= "1hpattackright",
+	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= ACT_IDLE,
+	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
+	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
+	[ACT_MP_JUMP] 						= ACT_IDLE,
+	[ACT_MP_SWIM_IDLE] 					= ACT_IDLE,
+	[ACT_MP_SWIM] 						= ACT_IDLE,
+	[ACT_LAND] 							= ACT_IDLE
+})
+
+GM:AddAnimTable("models/fallout/blowfly.mdl", {
+	[ACT_MP_STAND_IDLE] 				= "mtidle",
+	[ACT_MP_WALK] 						= "mtforward",
+	[ACT_MP_RUN] 						= "mtfastforward",
+	[ACT_MP_CROUCH_IDLE] 				= ACT_IDLE,
+	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
+	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= "h2hattackleft",
+	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= ACT_IDLE,
+	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
+	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
+	[ACT_MP_JUMP] 						= ACT_IDLE,
+	[ACT_MP_SWIM_IDLE] 					= ACT_IDLE,
+	[ACT_MP_SWIM] 						= ACT_IDLE,
+	[ACT_LAND] 							= ACT_IDLE
+})
+
 
 GM:AddAnimTable("models/fallout/giantant.mdl", {
 	[ACT_MP_STAND_IDLE] 				= "mtidle",
@@ -381,215 +349,6 @@ GM:AddAnimTable("models/fallout/giantant.mdl", {
 	[ACT_LAND] 							= ACT_IDLE
 })
 
--- TNB - HLNA Creatures (generic)
-GM:AddAnimTable({
-	"models/half-life/bullsquid.mdl",
-	"models/devilsquid.mdl",
-	"models/frostsquid.mdl",
-	"models/poisonsquid.mdl",
-	"models/tor.mdl",
-	"models/half-life/agrunt.mdl",
-	"models/half-life/big_mom.mdl",
-	"models/half-life/kingpin.mdl",
-	"models/charger/charger.mdl"
-}, {
-	[ACT_MP_STAND_IDLE] 				= ACT_IDLE,
-	[ACT_MP_WALK] 						= ACT_WALK,
-	[ACT_MP_RUN] 						= ACT_RUN,
-	[ACT_MP_CROUCH_IDLE] 				= ACT_IDLE,
-	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
-	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= ACT_IDLE,
-	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= ACT_IDLE,
-	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
-	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
-	[ACT_MP_JUMP] 						= ACT_RUN,
-	[ACT_MP_SWIM_IDLE] 					= ACT_IDLE,
-	[ACT_MP_SWIM] 						= ACT_IDLE,
-	[ACT_LAND] 							= ACT_IDLE
-})
-
--- TNB - HLNA Creatures (Vortigore)
-GM:AddAnimTable("models/opfor/gonome.mdl", {
-	[ACT_MP_STAND_IDLE] 				= "idle2",
-	[ACT_MP_WALK] 						= "walk",
-	[ACT_MP_RUN] 						= "runshort",
-	[ACT_MP_CROUCH_IDLE] 				= "idle2",
-	[ACT_MP_CROUCHWALK] 				= "walk",
-	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= "idle2",
-	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= "idle2",
-	[ACT_MP_RELOAD_STAND] 				= "idle2",
-	[ACT_MP_RELOAD_CROUCH] 				= "idle2",
-	[ACT_MP_JUMP] 						= "runlong",
-	[ACT_MP_SWIM_IDLE] 					= "idle2",
-	[ACT_MP_SWIM] 						= "idle2",
-	[ACT_LAND] 							= "idle2"
-})
-
--- TNB - HLNA Creatures (gargantua)
-GM:AddAnimTable({
-	"models/babygarg.mdl",
-	"models/gargantua.mdl"
-}, {
-	[ACT_MP_STAND_IDLE] 				= "idle3",
-	[ACT_MP_WALK] 						= ACT_WALK,
-	[ACT_MP_RUN] 						= ACT_RUN,
-	[ACT_MP_CROUCH_IDLE] 				= ACT_IDLE,
-	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
-	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= ACT_IDLE,
-	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= ACT_IDLE,
-	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
-	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
-	[ACT_MP_JUMP] 						= ACT_RUN,
-	[ACT_MP_SWIM_IDLE] 					= ACT_IDLE,
-	[ACT_MP_SWIM] 						= ACT_IDLE,
-	[ACT_LAND] 							= ACT_IDLE
-})
-
--- TNB - HLNA Creatures (chumtoad)
-GM:AddAnimTable({
-	"models/half-life/chumtoad.mdl"
-}, {
-	[ACT_MP_STAND_IDLE] 				= ACT_IDLE,
-	[ACT_MP_WALK] 						= "hop_1",
-	[ACT_MP_RUN] 						= "hop_2",
-	[ACT_MP_CROUCH_IDLE] 				= ACT_IDLE,
-	[ACT_MP_CROUCHWALK] 				= "hop_1",
-	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= ACT_IDLE,
-	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= ACT_IDLE,
-	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
-	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
-	[ACT_MP_JUMP] 						= "hop_2",
-	[ACT_MP_SWIM_IDLE] 					= ACT_IDLE,
-	[ACT_MP_SWIM] 						= ACT_IDLE,
-	[ACT_LAND] 							= ACT_IDLE
-})
-
--- TNB - HLNA Creatures (controller)
-GM:AddAnimTable({
-	"models/half-life/controller.mdl"
-}, {
-	[ACT_MP_STAND_IDLE] 				= ACT_WALK,
-	[ACT_MP_WALK] 						= ACT_WALK,
-	[ACT_MP_RUN] 						= ACT_WALK,
-	[ACT_MP_CROUCH_IDLE] 				= ACT_WALK,
-	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
-	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= ACT_WALK,
-	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= ACT_WALK,
-	[ACT_MP_RELOAD_STAND] 				= ACT_WALK,
-	[ACT_MP_RELOAD_CROUCH] 				= ACT_WALK,
-	[ACT_MP_JUMP] 						= ACT_WALK,
-	[ACT_MP_SWIM_IDLE] 					= ACT_WALK,
-	[ACT_MP_SWIM] 						= ACT_WALK,
-	[ACT_LAND] 							= ACT_WALK
-})
-
--- TNB - HLNA Creatures (houndeye)
-GM:AddAnimTable({
-	"models/half-life/houndeye.mdl"
-}, {
-	[ACT_MP_STAND_IDLE] 				= "idle2",
-	[ACT_MP_WALK] 						= ACT_WALK,
-	[ACT_MP_RUN] 						= ACT_RUN,
-	[ACT_MP_CROUCH_IDLE] 				= "idle2",
-	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
-	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= "idle2",
-	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= "idle2",
-	[ACT_MP_RELOAD_STAND] 				= "idle2",
-	[ACT_MP_RELOAD_CROUCH] 				= "idle2",
-	[ACT_MP_JUMP] 						= ACT_RUN,
-	[ACT_MP_SWIM_IDLE] 					= "idle2",
-	[ACT_MP_SWIM] 						= "idle2",
-	[ACT_LAND] 							= "idle2"
-})
-
--- TNB - HLNA Creatures (islave)
-GM:AddAnimTable({
-	"models/half-life/islave.mdl"
-}, {
-	[ACT_MP_STAND_IDLE] 				= "idle3",
-	[ACT_MP_WALK] 						= "walk1",
-	[ACT_MP_RUN] 						= "run1",
-	[ACT_MP_CROUCH_IDLE] 				= "idle3",
-	[ACT_MP_CROUCHWALK] 				= "walk1",
-	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= "idle3",
-	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= "idle3",
-	[ACT_MP_RELOAD_STAND] 				= "idle3",
-	[ACT_MP_RELOAD_CROUCH] 				= "idle3",
-	[ACT_MP_JUMP] 						= "run1",
-	[ACT_MP_SWIM_IDLE] 					= "idle3",
-	[ACT_MP_SWIM] 						= "idle3",
-	[ACT_LAND] 							= "idle3"
-})
-
--- TNB - HLNA Creatures (mrfriendly)
-GM:AddAnimTable({
-	"models/half-life/mrfriendly.mdl"
-}, {
-	[ACT_MP_STAND_IDLE] 				= "idle1",
-	[ACT_MP_WALK] 						= "walk",
-	[ACT_MP_RUN] 						= "walk",
-	[ACT_MP_CROUCH_IDLE] 				= "idle1",
-	[ACT_MP_CROUCHWALK] 				= "walk",
-	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= "idle1",
-	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= "idle1",
-	[ACT_MP_RELOAD_STAND] 				= "idle1",
-	[ACT_MP_RELOAD_CROUCH] 				= "idle1",
-	[ACT_MP_JUMP] 						= "walk",
-	[ACT_MP_SWIM_IDLE] 					= "idle1",
-	[ACT_MP_SWIM] 						= "idle1",
-	[ACT_LAND] 							= "idle1"
-})
-
--- TNB - HLNA Creatures (panthereye)
-GM:AddAnimTable({
-	"models/half-life/panthereye.mdl"
-}, {
-	[ACT_MP_STAND_IDLE] 				= "itch",
-	[ACT_MP_WALK] 						= "walk",
-	[ACT_MP_RUN] 						= "run",
-	[ACT_MP_CROUCH_IDLE] 				= "subtle_motion",
-	[ACT_MP_CROUCHWALK] 				= "crawl_on_belly",
-	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= "itch",
-	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= "itch",
-	[ACT_MP_RELOAD_STAND] 				= "itch",
-	[ACT_MP_RELOAD_CROUCH] 				= "itch",
-	[ACT_MP_JUMP] 						= "run",
-	[ACT_MP_SWIM_IDLE] 					= "walk",
-	[ACT_MP_SWIM] 						= "walk",
-	[ACT_LAND] 							= "walk"
-})
-
-GM:AddAnimTable({
-	"models/aliens/shieldbug/shieldbug.mdl"
-}, {
-	[ACT_MP_STAND_IDLE] 				= "idle_open",
-	[ACT_MP_WALK] 						= "run_all",
-	[ACT_MP_RUN] 						= "run_all",
-	[ACT_MP_CROUCH_IDLE] 				= "idle_open",
-	[ACT_MP_CROUCHWALK] 				= "run_all",
-	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= ACT_MELEE_ATTACK1,
-	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= ACT_MELEE_ATTACK2,
-	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
-	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
-	[ACT_MP_JUMP] 						= ACT_RUN,
-	[ACT_MP_SWIM_IDLE] 					= ACT_IDLE,
-	[ACT_MP_SWIM] 						= ACT_IDLE,
-	[ACT_LAND] 							= ACT_IDLE
-}, {
-	[ACT_MP_STAND_IDLE] 				= "idle_defend",
-	[ACT_MP_WALK] 						= "run_all_defend",
-	[ACT_MP_RUN] 						= "run_all_defend",
-	[ACT_MP_CROUCH_IDLE] 				= "idle_defend",
-	[ACT_MP_CROUCHWALK] 				= "run_all_defend",
-	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= ACT_MELEE_ATTACK1,
-	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= ACT_MELEE_ATTACK2,
-	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
-	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
-	[ACT_MP_JUMP] 						= ACT_RUN,
-	[ACT_MP_SWIM_IDLE] 					= ACT_IDLE,
-	[ACT_MP_SWIM] 						= ACT_IDLE,
-	[ACT_LAND] 							= ACT_IDLE
-})
 
 function GM:UseUnholsteredAnims(tab, wep)
 	return tab["_UNHOLSTERED"] and IsValid(wep) and (not wep.ShouldLower or not wep:ShouldLower())

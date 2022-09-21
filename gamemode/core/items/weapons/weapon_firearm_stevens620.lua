@@ -1,7 +1,7 @@
 ITEM = class.Create("base_weapon")
 
 ITEM.Name 				= "Stevens 620"
-ITEM.Description 		= "Placeholder."
+ITEM.Description 		= "The classic \n\nChambered in 12 Gauge."
 ITEM.OutlineColor		= Color(125, 159, 115)
 
 ITEM.Model 				= Model("models/weapons/w_nam_stevens620.mdl")

@@ -2,7 +2,7 @@ AddCSLuaFile()
 
 SWEP.Base 				= "eternity_firearm_base"
 
-SWEP.PrintName 			= "Mosin Nagant"
+SWEP.PrintName 			= "Don't Use"
 SWEP.Author 			= "TankNut"
 
 SWEP.ViewModel 			= Model("models/weapons/c_ins2_mosin_nagant.mdl")

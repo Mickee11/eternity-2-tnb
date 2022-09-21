@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base 				= "eternity_firearm_base"
 
 SWEP.PrintName 			= "M249 Light Machine Gun"
-SWEP.Author 			= "TankNut"
+SWEP.Author 			= "Mickee"
 
 SWEP.ViewModel 			= Model("models/weapons/v_inss_m249.mdl")
 
@@ -35,7 +35,7 @@ SWEP.RecoilMult 		= 0
 
 SWEP.AimOffset = {
 	ang = Angle(0.75, 0, 0),
-	pos = Vector(-5.5075, -3.5, 1.89)
+	pos = Vector(0, 0, 0)
 }
 
 

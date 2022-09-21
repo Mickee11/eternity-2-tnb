@@ -9,9 +9,8 @@ ITEM.ArmorLevel			= ARMOR_ELITE
 
 ITEM.Voicelines 	= {
 	["Angry"] = {
-		"npc/antlion_guard/angry1.wav",
-		"npc/antlion_guard/angry2.wav",
-		"npc/antlion_guard/angry3.wav"
+		"aliens/voc/boomer/inflate_voc01.wav",
+		"aliens/voc/boomer/inflate_voc02.wav"
 	}
 }
 

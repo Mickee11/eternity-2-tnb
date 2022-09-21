@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base 				= "eternity_firearm_base"
 
 SWEP.PrintName 			= "Sig Sauer P226"
-SWEP.Author 			= "TankNut"
+SWEP.Author 			= "Mickee"
 
 SWEP.ViewModel 			= Model("models/weapons/p226/c_p226.mdl")
 
@@ -47,7 +47,6 @@ SWEP.Animations = {
 	fire = {"base_fire", "base_fire2", "base_fire3"},
 	fire_last = {"base_firelast"},
 	reload = "base_reload",
-	reload_empty = "base_reloadempty",
 	draw = "base_draw"
 }
 

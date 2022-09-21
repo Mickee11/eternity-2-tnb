@@ -1,7 +1,7 @@
 ITEM = class.Create("base_monster")
 
-ITEM.Name 				= "Rabid Monster"
-ITEM.Description 		= "Drooling and ready for action. Might have rabies."
+ITEM.Name 				= "Infectious Fly"
+ITEM.Description 		= "It stinks of sulfur, and its stinger drips a orangish liquid."
 
 ITEM.Model 				= Model("models/weapons/w_bugbait.mdl")
 
@@ -9,7 +9,8 @@ ITEM.ArmorLevel			= ARMOR_ELITE
 
 ITEM.Voicelines 	= {
 	["Angry"] = {
-		"aliens/voc/boomer/melee_voc.wav",
+		"aliens/voc/drone/roar01.wav",
+		"aliens/voc/drone/roar02.wav"
 	}
 }
 
@@ -21,13 +22,13 @@ if SERVER then
 	function ITEM:PostModelData(ply, data)
 		return {
 			_base = {
-				Model = Model("models/fallout/deathclaw_baby.mdl")
+				Model = Model("models/fallout/blowfly.mdl")
 			}
 		}
 	end
 
 	function ITEM:OverwriteFootsteps(ply, step, walking)
-		return "vj_fallout/deathclaw/foot/deathclaw_foot_l01.mp3"
+		return "vj_fallout/blowfly/blowfly_idle_lp.wav"
 	end
 end
 

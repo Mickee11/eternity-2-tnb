@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base 				= "eternity_firearm_base"
 
 SWEP.PrintName 			= "Stevens 620"
-SWEP.Author 			= "TankNut"
+SWEP.Author 			= "Mickee"
 
 SWEP.ViewModel 			= Model("models/weapons/v_nam_stevens620.mdl")
 SWEP.WorldModel 		= Model("models/tnb/weapons/w_ithaca.mdl")

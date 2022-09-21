@@ -8,16 +8,14 @@ ITEM.Model 				= Model("models/weapons/w_bugbait.mdl")
 ITEM.ArmorLevel			= ARMOR_ELITE
 
 ITEM.Voicelines 	= {
-	["Angry"] = {
-		"npc/antlion_guard/angry1.wav",
-		"npc/antlion_guard/angry2.wav",
-		"npc/antlion_guard/angry3.wav"
+	["Growl"] = {
+		"aliens/voc/biomass/death.wav"
 	}
 }
 
 if SERVER then
 	function ITEM:GetSpeeds(ply)
-		return 180, 470, 210, 90
+		return 65, 250, 230, 65
 	end
 
 	function ITEM:PostModelData(ply, data)

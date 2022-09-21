@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base 				= "eternity_firearm_base"
 
 SWEP.PrintName 			= "CZ75B"
-SWEP.Author 			= "TankNut"
+SWEP.Author 			= "Mickee"
 
 SWEP.ViewModel 			= Model("models/weapons/tfa_ins2/c_cz75b.mdl")
 
@@ -47,7 +47,6 @@ SWEP.Animations = {
 	fire = {"base_fire", "base_fire2", "base_fire3"},
 	fire_last = {"base_firelast"},
 	reload = "base_reload",
-	reload_empty = "base_reload_empty",
 	draw = "base_draw"
 }
 
