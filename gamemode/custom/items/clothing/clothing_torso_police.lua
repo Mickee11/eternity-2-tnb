@@ -3,7 +3,7 @@ ITEM = class.Create("base_clothing")
 ITEM.Name 				= "Police Uniform Top"
 ITEM.Description 		= "The upper half of a police uniform."
 
-ITEM.Model 				= Model("models/mist/police/femaleofficertop.mdl")
+ITEM.Model 				= Model("models/props_junk/cardboard_box003a.mdl")
 ITEM.Skin 				= 0
 
 ITEM.Width 				= 2
@@ -23,7 +23,7 @@ function ITEM:GetContextOptions(ply)
 	table.insert(tab, {
 		Name = "Wear Vest",
 		Callback = function()
-			self.Bodygroups = {[1] = 1}
+			self.Vest = 1
 			
 			ply:HandlePlayerModel()
 		end
@@ -32,7 +32,7 @@ function ITEM:GetContextOptions(ply)
 	table.insert(tab, {
 		Name = "Remove Vest",
 		Callback = function()
-			self.Bodygroups = {[1] = 0}
+			self.Vest = 0
 			
 			ply:HandlePlayerModel()
 		end
@@ -42,7 +42,7 @@ function ITEM:GetContextOptions(ply)
 		table.insert(tab, {
 			Name = "Wear Toolbelt",
 			Callback = function()
-				self.Toolbelt = {[2] = 1}
+				self.Toolbelt = 1
 
 				ply:HandlePlayerModel()
 			end
@@ -51,7 +51,7 @@ function ITEM:GetContextOptions(ply)
 		table.insert(tab, {
 			Name = "Remove Toolbelt",
 			Callback = function()
-				self.Toolbelt = {[2] = 0}
+				self.Toolbelt = 0
 
 				ply:HandlePlayerModel()
 			end
@@ -65,8 +65,8 @@ if SERVER then
 	function ITEM:GetModelData(ply)
 		return {
 			torso = {
-				Model = Model(string.format("models/mist/police/%sofficertop.mdl", GAMEMODE:GetGenderString(ply:CharModel()))),
-				Skin = self.Skin,
+				Model = Model(string.format("models/mist/police/%sofficertop.mdl", GAMEMODE:GetGenderString(ply:CharModel()))), -- how to tell what is male and female
+				Vest = self.Vest,
 				Bodygroups = {
 					Toolbelt = self.Toolbelt or 0
 				}
