@@ -38,7 +38,6 @@ function ITEM:GetContextOptions(ply)
 		end
 	})
 
-	if GAMEMODE:GetModelGender(ply:CharModel()) == GENDER_MALE then
 		table.insert(tab, {
 			Name = "Wear Toolbelt",
 			Callback = function()
@@ -56,7 +55,6 @@ function ITEM:GetContextOptions(ply)
 				ply:HandlePlayerModel()
 			end
 		})
-	end
 
 	return table.Add(tab, self:ParentCall("GetContextOptions", ply))
 end
@@ -65,10 +63,10 @@ if SERVER then
 	function ITEM:GetModelData(ply)
 		return {
 			torso = {
-				Model = Model(string.format("models/mist/police/%sofficertop.mdl", GAMEMODE:GetGenderString(ply:CharModel()))), -- how to tell what is male and female
-				Vest = self.Vest,
+				Model = Model(string.format("models/mist/police/%s_officer_top.mdl", GAMEMODE:GetGenderString(ply:CharModel()))), -- how to tell what is male and female
 				Bodygroups = {
-					Toolbelt = self.Toolbelt or 0
+					vest = self.Vest or 0,
+					toolbelt = self.Toolbelt or 0
 				}
 			}
 		}
