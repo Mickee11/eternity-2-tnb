@@ -1,7 +1,7 @@
 ITEM = class.Create("base_consumable")
 
 ITEM.Name 				= "Biscuits"
-ITEM.Description 		= "A stale snack to go with your Breen Water."
+ITEM.Description 		= "Probably best to drink with water."
 
 ITEM.Model 				= Model("models/props_hla/props/biscuits.mdl")
 

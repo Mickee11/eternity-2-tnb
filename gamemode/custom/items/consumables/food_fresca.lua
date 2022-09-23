@@ -1,7 +1,7 @@
 ITEM = class.Create("base_consumable")
 
-ITEM.Name 				= "Dr. Breen's Private Reserve"
-ITEM.Description 		= "Just a normal can of seltzer water. Tastes fishy."
+ITEM.Name 				= "Fresca"
+ITEM.Description 		= "The best."
 
 ITEM.Model 				= Model("models/props_junk/popcan01a.mdl")
 

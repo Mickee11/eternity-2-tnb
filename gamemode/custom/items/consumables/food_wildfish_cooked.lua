@@ -1,7 +1,7 @@
 ITEM = class.Create("base_consumable")
 
 ITEM.Name 				= "Cooked Wild Fish"
-ITEM.Description 		= "A rare specimen only found outside the city walls."
+ITEM.Description 		= "Cooked Salmon."
 
 ITEM.Model 				= Model("models/props/cs_militia/fishriver01.mdl")
 ITEM.Skin               = 1

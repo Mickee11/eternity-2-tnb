@@ -1,7 +1,7 @@
 ITEM = class.Create("base_consumable")
 
 ITEM.Name 				= "Large Bread Loaf"
-ITEM.Description 		= "A large, fresh piece of bread offered to priority citizens."
+ITEM.Description 		= "A large, fresh piece of bread."
 
 ITEM.Model 				= Model("models/props_hla/food/bread.mdl")
 

@@ -1,7 +1,7 @@
 ITEM = class.Create("base_consumable")
 
 ITEM.Name 				= "Whiskey"
-ITEM.Description 		= "A surprisingly strong alcholic beverage allowed by the Combine."
+ITEM.Description 		= "The classic."
 
 ITEM.Model 				= Model("models/props_junk/glassjug01.mdl")
 

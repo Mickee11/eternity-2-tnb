@@ -1,7 +1,7 @@
 ITEM = class.Create("base_consumable")
 
 ITEM.Name 				= "Orange"
-ITEM.Description 		= "A healthy, out-of-place snack in the new world."
+ITEM.Description 		= "A healthy snack."
 
 ITEM.Model 				= Model("models/props/cs_italy/orange.mdl")
 

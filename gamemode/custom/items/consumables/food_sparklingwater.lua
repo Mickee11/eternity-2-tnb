@@ -1,7 +1,7 @@
 ITEM = class.Create("base_consumable")
 
 ITEM.Name 				= "Sparkling Water"
-ITEM.Description 		= "A can of sparkling water. Still a bit bubbly."
+ITEM.Description 		= "A can of sparkling water. Very bubbly."
 
 ITEM.Model 				= Model("models/props/cs_office/trash_can_p8.mdl")
 

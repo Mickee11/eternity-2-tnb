@@ -1,7 +1,7 @@
 ITEM = class.Create("base_consumable")
 
 ITEM.Name 				= "Coffee"
-ITEM.Description 		= "A cup of coffee brewed alongside Breen's Private Reserve."
+ITEM.Description 		= "A cup of warm coffee."
 
 ITEM.Model 				= Model("models/props_junk/garbage_coffeemug001a.mdl")
 

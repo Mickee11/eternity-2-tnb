@@ -1,7 +1,7 @@
 ITEM = class.Create("base_consumable")
 
 ITEM.Name 				= "Dried Instant Noodles"
-ITEM.Description 		= "A box of Combine-rebranded ramen noodles. No flavor packet."
+ITEM.Description 		= "A box of Ramen noodles."
 
 ITEM.Model 				= Model("models/props_junk/garbage_takeoutcarton001a.mdl")
 

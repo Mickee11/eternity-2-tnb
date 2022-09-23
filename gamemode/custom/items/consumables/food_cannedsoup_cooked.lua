@@ -1,7 +1,7 @@
 ITEM = class.Create("base_consumable")
 
 ITEM.Name 				= "Cooked Soup"
-ITEM.Description 		= "A pot of warm, likely expired chicken noodle soup."
+ITEM.Description 		= "A pot of warm chicken noodle soup."
 
 ITEM.Model 				= Model("models/props_interiors/pot02a.mdl")
 

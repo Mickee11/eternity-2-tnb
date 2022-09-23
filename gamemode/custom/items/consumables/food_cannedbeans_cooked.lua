@@ -1,7 +1,7 @@
 ITEM = class.Create("base_consumable")
 
 ITEM.Name 				= "Cooked Beans"
-ITEM.Description 		= "A pot of warm, likely expired beans."
+ITEM.Description 		= "A pot of warm beans."
 
 ITEM.Model 				= Model("models/props_interiors/pot02a.mdl")
 

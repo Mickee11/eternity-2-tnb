@@ -1,7 +1,7 @@
 ITEM = class.Create("base_consumable")
 
 ITEM.Name 				= "Canned Soup"
-ITEM.Description 		= "A can of old, likely expired chicken noodle soup."
+ITEM.Description 		= "A can of chicken noodle soup."
 
 ITEM.Model 				= Model("models/props_junk/garbage_metalcan001a.mdl")
 

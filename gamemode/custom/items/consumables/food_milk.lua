@@ -1,7 +1,7 @@
 ITEM = class.Create("base_consumable")
 
 ITEM.Name 				= "Milk"
-ITEM.Description 		= "A carton of milk produced by the Combine. Doesn't taste like you remember."
+ITEM.Description 		= "A carton of milk."
 
 ITEM.Model 				= Model("models/props_junk/garbage_milkcarton002a.mdl")
 
