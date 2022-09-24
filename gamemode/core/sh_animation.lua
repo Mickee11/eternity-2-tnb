@@ -204,6 +204,63 @@ GM:AddAnimTable({
 	[ACT_LAND] 							= ACT_IDLE
 })
 
+GM:AddAnimTable({
+	"models/fallout/radscorpion.mdl",
+}, {
+	[ACT_MP_STAND_IDLE] 				= "mtidle",
+	[ACT_MP_WALK] 						= "walk",
+	[ACT_MP_RUN] 						= "mtfastforward",
+	[ACT_MP_CROUCH_IDLE] 				= "mtspecialidle_situp",
+	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
+	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= "h2hattackright_bite",
+	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= "h2hattackright_swat",
+	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
+	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
+	[ACT_MP_JUMP] 						= ACT_IDLE,
+	[ACT_MP_SWIM_IDLE] 					= ACT_IDLE,
+	[ACT_MP_SWIM] 						= ACT_IDLE,
+	[ACT_LAND] 							= ACT_IDLE
+})
+
+GM:AddAnimTable({
+	"models/fallout/barkscorpion.mdl",
+}, {
+	[ACT_MP_STAND_IDLE] 				= "mtidle",
+	[ACT_MP_WALK] 						= "walk",
+	[ACT_MP_RUN] 						= "mtfastforward",
+	[ACT_MP_CROUCH_IDLE] 				= "specialidle_intimidatedance",
+	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
+	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= "h2hattackpower",
+	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= "h2hattackright",
+	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
+	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
+	[ACT_MP_JUMP] 						= ACT_IDLE,
+	[ACT_MP_SWIM_IDLE] 					= ACT_IDLE,
+	[ACT_MP_SWIM] 						= ACT_IDLE,
+	[ACT_LAND] 							= ACT_IDLE
+})
+
+GM:AddAnimTable({
+	"models/fallout/yaoguai.mdl",
+}, {
+	[ACT_MP_STAND_IDLE] 				= "mtidle",
+	[ACT_MP_WALK] 						= "walk",
+	[ACT_MP_RUN] 						= "mtfastforward",
+	[ACT_MP_CROUCH_IDLE] 				= ACT_IDLE,
+	[ACT_MP_CROUCHWALK] 				= ACT_WALK,
+	[ACT_MP_ATTACK_STAND_PRIMARYFIRE] 	= "h2hattackpower",
+	[ACT_MP_ATTACK_CROUCH_PRIMARYFIRE] 	= "h2hattackleft",
+	[ACT_MP_RELOAD_STAND] 				= ACT_IDLE,
+	[ACT_MP_RELOAD_CROUCH] 				= ACT_IDLE,
+	[ACT_MP_JUMP] 						= ACT_IDLE,
+	[ACT_MP_SWIM_IDLE] 					= ACT_IDLE,
+	[ACT_MP_SWIM] 						= ACT_IDLE,
+	[ACT_LAND] 							= ACT_IDLE
+})
+
+
+
+
 GM:AddAnimTable("models/cpthazama/fallout/mirelurk.mdl", {
 	[ACT_MP_STAND_IDLE] 				= "mtidle",
 	[ACT_MP_WALK] 						= "walk",
