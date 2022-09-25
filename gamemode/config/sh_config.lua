@@ -234,6 +234,8 @@ GM.Config.Workshop.Content 	= {
     "2600347219", -- fallout snpcs
     "2600378863", -- fallout snpcs models
     "131759821", -- vj base
+    "104990330", -- wac aircraft
+    "108907015", -- wac community 1
 
 }
 GM.Config.Workshop.Maps = {}
