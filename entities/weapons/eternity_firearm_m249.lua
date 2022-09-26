@@ -3,10 +3,9 @@ AddCSLuaFile()
 SWEP.Base 				= "eternity_firearm_base"
 
 SWEP.PrintName 			= "M249 Light Machine Gun"
-SWEP.Author 			= "TankNut"
+SWEP.Author 			= "Mickee"
 
-SWEP.ViewModel 			= Model("models/tnb/weapons/c_m249.mdl")
-SWEP.VMBodyGroups		= {[1] = 0}
+SWEP.ViewModel 			= Model("models/weapons/v_inss_m249.mdl")
 
 SWEP.WorldModel 		= Model("models/tnb/weapons/w_m249.mdl")
 SWEP.BodyGroups			= {[1] = 0}
@@ -29,20 +28,23 @@ SWEP.AimCone 			= 0.03 -- ADS spread
 
 SWEP.Recoil 			= 1.25
 
-SWEP.FireSound 			= Sound("eternity.weapon_m249")
-SWEP.DrySound 			= Sound("eternity.dry_rifle")
+SWEP.FireSound 			= Sound("weapons/m249/m249_fp.wav")
+SWEP.DrySound 			= Sound("weapons/m249/m249_empty.wav")
 
 SWEP.RecoilMult 		= 0
 
 SWEP.AimOffset = {
-	ang = Angle(0.75, 0, 0),
-	pos = Vector(-5.5075, -3.5, 1.89)
+	ang = Angle(0, 0, 0),
+	pos = Vector(-2.85, 0, 1.68)
+}
+
+SWEP.DefaultOffset = {
+    ang = Angle(0, 0, 0),
+    pos = Vector(1, 2.5, 0)
 }
 
 SWEP.Animations = {
-	fire = {"shoot1", "shoot2"},
-	fire_last = {"shoot1", "shoot2"},
-	reload = "reload",
-	reload_empty = "reload",
-	draw = "draw"
+	fire = {"base_fire_1", "base_fire_2", "base_fire_3"},
+	reload = "base_reload",
+	draw = "base_draw"
 }
