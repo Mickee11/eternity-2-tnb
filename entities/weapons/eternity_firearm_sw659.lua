@@ -33,13 +33,13 @@ SWEP.DrySound 			= Sound("weapons/tfa_ins2/sw659/empty.wav")
 SWEP.RecoilMult 		= 0
 
 SWEP.AimOffset = {
-	ang = Angle(1, 0, 0),
-	pos = Vector(-6.4, -7.5, 2.875)
+	ang = Angle(0, 0, 0),
+	pos = Vector(-3.6, 0, 0.4)
 }
 
 SWEP.DefaultOffset = {
     ang = Angle(0, 0, 0),
-    pos = Vector(1, 2.5, 0)
+    pos = Vector(1, 2.5, -1.2)
 }
 
 SWEP.Animations = {

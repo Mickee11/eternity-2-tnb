@@ -1,10 +1,10 @@
 ITEM = class.Create("base_weapon")
 
-ITEM.Name 				= "Walther P99"
-ITEM.Description 		= "A German semi-automatic pistol developed in the very early 1990s.\n\nChambered in 9x19mm."
+ITEM.Name 				= "Beretta M9"
+ITEM.Description 		= "An American semi-automatic pistol developed in the mid 1970's.\n\nChambered in 9x19mm."
 ITEM.OutlineColor		= Color(125, 159, 115)
 
-ITEM.Model 				= Model("models/weapons/w_ins2_pist_p99.mdl")
+ITEM.Model 				= Model("models/weapons/beretta/w_m9.mdl")
 
 ITEM.Width 				= 1
 ITEM.Height 			= 3
@@ -17,8 +17,8 @@ ITEM.SellPrice          = 1250
 
 ITEM.Variants			= {
 	Default = {
-		WeaponClass = "eternity_firearm_p99",
-		Model = "models/weapons/w_ins2_pist_p99.mdl",
+		WeaponClass = "eternity_firearm_m9",
+		Model = "models/weapons/beretta/w_m9.mdl",
 		Skin = 1,
 		Bodygroups = {},
 		Title = "Default",
