@@ -1,10 +1,10 @@
 ITEM = class.Create("base_weapon")
 
 ITEM.Name 				= "Armsel Striker"
-ITEM.Description 		= "A revolving cylinder riot control shotgun designed by the United States in the early 1980s.\n\nTakes 12-Gauge."
+ITEM.Description 		= "American Semi-Automatic shotgun designed in the late 1890's.\n\nTakes 12-Gauge."
 ITEM.OutlineColor		= Color(125, 159, 115)
 
-ITEM.Model 				= Model("models/tnb/weapons/w_striker.mdl")
+ITEM.Model 				= Model("models/weapons/w_ins2_auto5.mdl")
 
 ITEM.Width 				= 1
 ITEM.Height 			= 6
@@ -17,14 +17,14 @@ ITEM.SellPrice          = 45000
 
 ITEM.Variants			= {
 	Default = {
-		WeaponClass = "eternity_firearm_armselstriker",
-		Model = "models/tnb/weapons/w_striker.mdl",
+		WeaponClass = "eternity_firearm_auto5",
+		Model = "models/weapons/w_ins2_auto5.mdl",
 		Skin = 0,
 		Bodygroups = {},
 		Title = "Default",
 		Cost = 0,
 		Refund = 2,
-		Description = "The base model of the Striker.",
+		Description = "The base model of the Browning Auto-5.",
 		Width = 1,
 		Height = 6
 	},

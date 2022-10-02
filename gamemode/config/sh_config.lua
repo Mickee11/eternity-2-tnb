@@ -244,6 +244,12 @@ GM.Config.Workshop.Content 	= {
     "1665159137", -- jeep
     "2611791235", -- tnb head models revised
     "1639165791", -- warfare items
+    "2848021972", -- tnb pistols revised
+    "2848014425", -- tnb shotguns revised
+    "2848012059", -- tnb weapon base
+    "2868152542", -- tnb rifles revamped
+
+
 
 }
 GM.Config.Workshop.Maps = {}

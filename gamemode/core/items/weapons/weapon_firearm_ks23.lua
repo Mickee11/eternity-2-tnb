@@ -1,39 +1,38 @@
 ITEM = class.Create("base_weapon")
 
-ITEM.Name				= "KS23"
-ITEM.Description		= "Soviet Boomstick."
-ITEM.OutlineColor				= Color(125, 159, 115)
+ITEM.Name 				= "KS-23"
+ITEM.Description 		= "Soviet Boomstick designed in the early 1970's.\n\nFires 23×75mmR."
+ITEM.OutlineColor		= Color(125, 159, 115)
 
-ITEM.Model				= Model("models/tnb/weapons/w_ks23.mdl")
+ITEM.Model 				= Model("models/weapons/tfa_l4d2/w_ks23.mdl")
 
-ITEM.Width				= 2
-ITEM.Height				= 1
+ITEM.Width 				= 1
+ITEM.Height 			= 4
 
-ITEM.EquipmentSlots		= {EQUIPMENT_PRIMARY}
+ITEM.EquipmentSlots 	= {EQUIPMENT_PRIMARY}
 
-ITEM.License			= LICENSE_BLACKMARKET
-ITEM.UnitPrice			= 5000
-ITEM.SellPrice			= 3000
+ITEM.License 			= LICENSE_BLACKMARKET
+ITEM.UnitPrice          = 12000
+ITEM.SellPrice          = 7000
 
 ITEM.Variants			= {
- 	Default = {
- 		WeaponClass = "eternity_firearm_ks23",
- 		Model = "models/tnb/weapons/w_ks23.mdl",
- 		Skin = 0,
- 		Bodygroups = {},
- 		Title = "Default",
- 		Cost = 0,
- 		Refund = 2,
- 		Description = "The base model of the Ks23",
- 		Width = 3,
- 		Height = 1
- 	},
+	Default = {
+		WeaponClass = "eternity_firearm_ks23",
+		Model = "models/weapons/tfa_l4d2/w_ks23.mdl",
+		Skin = 0,
+		Bodygroups = {},
+		Title = "Default",
+		Cost = 0,
+		Refund = 2,
+		Description = "The base model of the KS-23.",
+		Width = 1,
+		Height = 4
+	},
 }
 
-ITEM.AmmoTypes			= {
- 	["ammo_12gauge_buckshot"] = true,
- 	["ammo_12gauge_slug"] = true
-
+ITEM.AmmoTypes 			= {
+	["ammo_12gauge_buckshot"] = true,
+	["ammo_12gauge_slug"] = true
 }
 
- return ITEM
+return ITEM
