@@ -4,10 +4,10 @@ ITEM.Name 				= "SKS"
 ITEM.Description 		= "A Soviet-developed self-loading carbine developed in the mid-1940s.\n\nChambered in 7.62x39mm."
 ITEM.OutlineColor		= Color(125, 159, 115)
 
-ITEM.Model 				= Model("models/tnb/weapons/w_sks.mdl")
+ITEM.Model 				= Model("models/weapons/sks_ins/w_sks.mdl")
 
-ITEM.Width 				= 3
-ITEM.Height 			= 1
+ITEM.Width 				= 1
+ITEM.Height 			= 6
 
 ITEM.EquipmentSlots 	= {EQUIPMENT_PRIMARY}
 
@@ -18,27 +18,15 @@ ITEM.SellPrice          = 12500
 ITEM.Variants			= {
 	Default = {
 		WeaponClass = "eternity_firearm_sks",
-		Model = "models/tnb/weapons/w_sks.mdl",
+		Model = "models/weapons/sks_ins/w_sks.mdl",
 		Skin = 1,
 		Bodygroups = {},
 		Title = "Default",
 		Cost = 0,
 		Refund = 2,
 		Description = "The base model of the SKS.",
-		Width = 3,
-		Height = 1
-	},
-	PU = {
-		WeaponClass = "eternity_firearm_sks_pu",
-		Model = "models/tnb/weapons/w_sks.mdl",
-		Skin = 1,
-		Bodygroups = {[1] = 1},
-		Title = "PU",
-		Cost = 2,
-		Refund = 2,
-		Description = "Attaches a PU scope to the weapon's frame and loads a smaller magazine. Good for short-medium range action.",
-		Width = 3,
-		Height = 1
+		Width = 1,
+		Height =6
 	},
 }
 

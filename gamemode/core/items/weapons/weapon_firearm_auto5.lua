@@ -1,6 +1,6 @@
 ITEM = class.Create("base_weapon")
 
-ITEM.Name 				= "Armsel Striker"
+ITEM.Name 				= "Browning Auto-5"
 ITEM.Description 		= "American Semi-Automatic shotgun designed in the late 1890's.\n\nTakes 12-Gauge."
 ITEM.OutlineColor		= Color(125, 159, 115)
 
