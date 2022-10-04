@@ -7,7 +7,7 @@ SWEP.Author 			= "Mickee"
 
 SWEP.ViewModel 			= Model("models/weapons/v_ismc_mp443.mdl")
 
-SWEP.WorldModel 		= Model("models/weapons/mp443/w_m9.mdl")
+SWEP.WorldModel 		= Model("models/tnb/weapons/w_grach.mdl")
 
 SWEP.ModelSkin			= 0
 

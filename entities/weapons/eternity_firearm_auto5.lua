@@ -5,7 +5,8 @@ SWEP.Base 				= "eternity_firearm_base"
 SWEP.PrintName 			= "Browning Auto-5"
 SWEP.Author 			= "Mickee"
 
-SWEP.ViewModel 			= Model("models/weapons/beck_auto5.mdl")
+SWEP.ViewModel 			= Model("models/weapons/c_ins2_auto5_ins.mdl")
+SWEP.VMBodyGroups		= {[2] = 1}
 
 SWEP.WorldModel 		= Model("models/weapons/w_ins2_auto5.mdl")
 
@@ -35,8 +36,8 @@ SWEP.DrySound 			= Sound("weapons/tfa_ins2/m1014/toz_empty.wav")
 SWEP.RecoilMult 		= 0
 
 SWEP.AimOffset = {
-	ang = Angle(0, -2, 5),
-	pos = Vector(-3.5, 0, 0)
+	ang = Angle(0, 0, 0),
+	pos = Vector(-3.4, 0, 1.65)
 }
 
 SWEP.DefaultOffset = {
@@ -46,11 +47,11 @@ SWEP.DefaultOffset = {
 
 
 SWEP.Animations = {
-	draw = "draw",
-	fire = {"shoot"},
-	reload = "reload_start",
-	reloadinsert = "reload_loop",
-	reloadfinish = "reload_end"
+	draw = "base_draw",
+	fire = {"base_fire_1", "base_fire_2"},
+	reload = "base_reload_start",
+	reloadinsert = "base_reload_insert",
+	reloadfinish = "base_reload_end"
 }
 
 function SWEP:FireAnimationEvent(pos, ang, event, options)

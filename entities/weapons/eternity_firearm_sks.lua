@@ -25,21 +25,21 @@ SWEP.Delay 				= 0.2
 SWEP.HipCone 			= 0.02 -- Hipfire spread 
 SWEP.AimCone 			= 0.01 -- ADS spread
 
-SWEP.Recoil 			= 1.9
+SWEP.Recoil 			= 1
 
-SWEP.FireSound 			= Sound("eternity.weapon_sks")
-SWEP.DrySound 			= Sound("eternity.dry_rifle")
+SWEP.FireSound 			= Sound("weapons/tfa_at_sks/fpss.wav")
+SWEP.DrySound 			= Sound("weapons/tfa_at_sks/emptyss.wav")
 
 SWEP.RecoilMult 		= 0
 
 SWEP.AimOffset = {
 	ang = Angle(0, 0, 0),
-	pos = Vector(0, 0, 0)
+	pos = Vector(-2.35, 1.5, 1.3)
 }
 
 SWEP.DefaultOffset = {
     ang = Angle(0, 0, 0),
-    pos = Vector(2, 2, -1.5)
+    pos = Vector(2, 3, -1.5)
 }
 
 
@@ -53,16 +53,13 @@ SWEP.Animations = {
 
 SWEP.SoundScripts = { -- Stolen from the TFA version of the weapon
 	base_reload = {
-		{time = 0 / 0, snd = "weapons/tfa_ins2/cz75/boltback.wav"},
-		{time = 0 / 0, snd = "weapons/tfa_ins2/cz75/magout.wav"},
-		{time = 0 / 0, snd = "weapons/tfa_ins2/cz75/magin.wav"},
-		{time = 0 / 0, snd = "weapons/tfa_ins2/cz75/maghit.wav"},
+		{time = 10 / 30, snd = "weapons/tfa_at_sks/clipoutss.wav"},
+		{time = 60 / 30, snd = "weapons/tfa_at_sks/clipinss.wav"},
 	},
 	base_reloadempty = {
-		{time = 0 / 30, snd = "weapons/tfa_ins2/cz75/boltback.wav"},
-		{time = 0 / 30, snd = "weapons/tfa_ins2/cz75/magout.wav"},
-		{time = 35 / 30, snd = "weapons/mp443/m9_magin.wav"},
-		{time = 38 / 30, snd = "weapons/mp443/m9_maghit.wav"},
-		{time = 0 / 30, snd = "weapons/mp443/m9_boltrelease.wav"},
+		{time = 35 / 30, snd = "weapons/tfa_at_sks/clipoutss.wav"},
+		{time = 60 / 30, snd = "weapons/tfa_at_sks/clipinss.wav"},
+		{time = 95 / 30, snd = "weapons/tfa_at_sks/boltbackss.wav"},
+		{time = 105 / 30, snd = "weapons/tfa_at_sks/boltreleasess.wav"},
 	}
 }
